@@ -36,6 +36,21 @@
     <ClInclude Include="283-MoveZeroes.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="437-PathSum3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="51-NQueens.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="309-BestTimeBuySellStockCooldown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="123-BestTimeBuySellStock-III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4-MedianOfTwoSortedArrays.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
