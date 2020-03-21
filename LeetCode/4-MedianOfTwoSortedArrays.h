@@ -9,45 +9,41 @@ class Solution_4 {
 public:
 	double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 		int m = nums1.size(), n = nums2.size();
-		if (m > n) { //移动短数组,降低移动次数
-			swap(nums1, nums2);
-			swap(m, n);
+		if (m > n) { //选择短数组,降低二分次数
+			return findMedianSortedArrays(nums2, nums1);
 		}
-		int l = m + n;						//总共有多少个元素
-		int lmxi = m / 2 - 1, rmxi = m / 2;	//nums1中 左边最大/右边最小 元素索引
-		int lmyi, rmyi;						//nums2中 左边最大/右边最小 元素索引
-		int lmx, lmy, rmx, rmy;				//nums1和nums2中 左边最大/右边最小 元素
+		int l = m + n;			//总共有多少个元素
+		int lmx, rmx, lmy, rmy;	//nums1(nums2)中`左边最大和右边最小`元素
+		int px, py;				//nums1和nums2的分割点, >=px(py) 划为右边
 
-		//当nums1全部元素位于同一边,一定能得到中位数,但需要更新nums2的分割点
-		while (lmxi >= -1 && rmxi <= m) {
-			//nums1和nums2中的左边元素数量之和应该为总数量的一半: l/2
-			//nums1中左边元素个数为rmxi,nums2中左边元素个数应该为l/2-rmxi,最后元素的索引等于数量减一
-			lmyi = l / 2 - rmxi - 1;
-			rmyi = lmyi + 1;
+		int low = 0, high = m;	//用于二分搜索 [low,high)
+		while (low <= high) {
+			px = (low + high) / 2;
+			py = l / 2 - px;
 
-			lmx = lmxi < 0 ? INT_MIN : nums1[lmxi];
-			rmx = rmxi >= m ? INT_MAX : nums1[rmxi];
-			lmy = lmyi < 0 ? INT_MIN : nums2[lmyi];
-			rmy = rmyi >= n ? INT_MAX : nums2[rmyi];
+			lmx = px == 0 ? INT_MIN : nums1[px - 1];
+			rmx = px == m ? INT_MAX : nums1[px];
+			lmy = py == 0 ? INT_MIN : nums2[py - 1];
+			rmy = py == n ? INT_MAX : nums2[py];
 
-			//nums1和nums2中的所有左边元素都不大于右边元素,且正好分成两半,中位数由分界处的四个元素产生
+			//所有元素等分两半,且左边元素都不大于右边元素,则中位数由分界点的四个元素产生
 			if (lmx <= rmy && lmy <= rmx) {
-				if (l % 2)return min(rmx, rmy);
+				if (l % 2) return min(rmx, rmy);
 				return (max(lmx, lmy) + min(rmx, rmy)) / 2.0;
 			}
+			//为何不是 high=px-2 ? 因为high端是开区间,若=px-2,则会漏掉最后一个元素
 			else if (lmx > rmy) {
-				lmxi--; //nums1中左边最大元素大于nums2中右边最小元素,应该使其降低,即向左移动
+				high = px - 1; //nums1中左边最大元素大于nums2中右边最小元素,应该使其减小,选择左边
 			}
 			else if (lmy > rmx) {
-				lmxi++; //nums1中右边最小元素小于nums2中左边最大元素,应该使其增加,即向右移动
+				low = px + 1; //nums1中右边最小元素小于nums2中左边最大元素,应该使其增大,选择右边
 			}
-			rmxi = lmxi + 1;
 		}
 	}
 };
 
 void test_4()
 {
-	vector<int> a = { 1 }, b = { 2,3 };
+	vector<int> a = { 1,1,3,3 }, b = { 1,1,3,3 };
 	std::cout << (Solution_4().findMedianSortedArrays(a, b) == 2) << endl;
 }

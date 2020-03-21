@@ -1,5 +1,8 @@
 #include "1-TwoSum.h"
 #include "4-MedianOfTwoSortedArrays.h"
+#include "5-LongestPalindromicSubstring.h"
+#include "11-ContainWithMostWater.h"
+#include "17-LetterCombinationsUsingPhoneNumber.h"
 #include "51-NQueens.h"
 #include "104-MaxDepthOfBinaryTree.h"
 #include "123-BestTimeBuySellStock-III.h"
@@ -13,7 +16,10 @@
 
 int main() {
 	//test_1();
-	test_4();
+	//test_4();
+	//test_5();
+	//test_11();
+	test_17();
 	//test_51();
 	//test_104();
 	//test_123();

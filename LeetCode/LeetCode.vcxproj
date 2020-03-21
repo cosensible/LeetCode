@@ -117,14 +117,17 @@
   <ItemGroup>
     <ClInclude Include="1-TwoSum.h" />
     <ClInclude Include="104-MaxDepthOfBinaryTree.h" />
+    <ClInclude Include="11-ContainWithMostWater.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
     <ClInclude Include="136-SingleNumber.h" />
+    <ClInclude Include="17-LetterCombinationsUsingPhoneNumber.h" />
     <ClInclude Include="206-ReverseLinkedList.h" />
     <ClInclude Include="226-InvertBinaryTree.h" />
     <ClInclude Include="283-MoveZeroes.h" />
     <ClInclude Include="309-BestTimeBuySellStockCooldown.h" />
     <ClInclude Include="4-MedianOfTwoSortedArrays.h" />
     <ClInclude Include="437-PathSum3.h" />
+    <ClInclude Include="5-LongestPalindromicSubstring.h" />
     <ClInclude Include="51-NQueens.h" />
     <ClInclude Include="BinaryTree.h" />
   </ItemGroup>

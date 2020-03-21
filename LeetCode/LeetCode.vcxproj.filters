@@ -51,6 +51,15 @@
     <ClInclude Include="4-MedianOfTwoSortedArrays.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="11-ContainWithMostWater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="5-LongestPalindromicSubstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="17-LetterCombinationsUsingPhoneNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
