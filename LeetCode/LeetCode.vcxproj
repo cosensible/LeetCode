@@ -144,6 +144,7 @@
     <ClInclude Include="51-NQueens.h" />
     <ClInclude Include="55-JumpGame.h" />
     <ClInclude Include="62-UniquePaths.h" />
+    <ClInclude Include="64-MinimumPathSum.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="List.h" />
   </ItemGroup>

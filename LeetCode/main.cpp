@@ -16,6 +16,7 @@
 #include "51-NQueens.h"
 #include "55-JumpGame.h"
 #include "62-UniquePaths.h"
+#include "64-MinimumPathSum.h"
 #include "104-MaxDepthOfBinaryTree.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "136-SingleNumber.h"
@@ -41,7 +42,8 @@ int main() {
 	//test_34();
 	//test_51();
 	//test_55();
-	test_62();
+	//test_62();
+	test_64();
 	//test_104();
 	//test_123();
 	//test_136();

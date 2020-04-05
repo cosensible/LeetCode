@@ -108,6 +108,9 @@
     <ClInclude Include="62-UniquePaths.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="64-MinimumPathSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
