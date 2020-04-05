@@ -60,6 +60,54 @@
     <ClInclude Include="17-LetterCombinationsUsingPhoneNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="20-ValidParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="19-RemoveNthNodeFromListEnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="160-IntersectionOfTwoLinkedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="155-MinStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="200-NumberOfIslands.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="22-GenerateParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="33-SearchRotatedSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="15-3Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="39-CombinationSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="34-FindFirstLastPositionOfElementInSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="46-Permutations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="48-RotateImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="49-GroupAnagrams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="55-JumpGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="62-UniquePaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
