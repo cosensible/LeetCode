@@ -9,6 +9,8 @@
 #include "22-GenerateParentheses.h" //test_22();
 #include "33-SearchRotatedSortedArray.h"
 #include "34-FindFirstLastPositionOfElementInSortedArray.h"
+#include "36-ValidSudoku.h"
+#include "37-SudokuSolver.h"
 #include "39-CombinationSum.h" //test_39();
 #include "46-Permutations.h" //test_46();
 #include "48-RotateImage.h" //test_48();
@@ -17,6 +19,8 @@
 #include "55-JumpGame.h"
 #include "62-UniquePaths.h"
 #include "64-MinimumPathSum.h"
+#include "75-SortColors.h"
+#include "78-Subsets.h"
 #include "104-MaxDepthOfBinaryTree.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "136-SingleNumber.h"
@@ -40,10 +44,14 @@ int main() {
 	//test_20();
 	//test_33();
 	//test_34();
+	test_36();
+	//test_37();
 	//test_51();
 	//test_55();
 	//test_62();
-	test_64();
+	//test_64();
+	//test_75();
+	//test_78();
 	//test_104();
 	//test_123();
 	//test_136();

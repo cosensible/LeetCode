@@ -111,6 +111,18 @@
     <ClInclude Include="64-MinimumPathSum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="75-SortColors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="78-Subsets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="37-SudokuSolver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="36-ValidSudoku.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
