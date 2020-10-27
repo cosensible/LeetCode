@@ -123,6 +123,123 @@
     <ClInclude Include="36-ValidSudoku.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="63-UniquePaths-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="79-WordSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="144-BinaryTreePreorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="94-BinaryTreeInorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="145-BinaryTreePostorderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="234-PalindromeLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="581-ShortestUnsortedContinuousSubarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="338-CountingBits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="406-QueueReconstructionByHeight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="739-DailyTemperatures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="837.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="237-DeleteNodeInLinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="10-RegularExpressionMatching.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="32-LongestValidParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="647-PalindromicSubstrings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="322-CoinChange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="96-UniqueBinarySearchTrees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="494-TargetSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="279-PerfectSquares.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="300-LongestIncreasingSubsequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="221-MaximalSquare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="84-LargestRectangleInHistogram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="85-MaximalRectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="72-EditDistance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="238-ProductOfArrayExceptSelf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="138-CopyListWithRandomPointer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="114-FlattenBinaryTree2LinkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="148-SortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="74-Search2DMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="240-Search2DMatrix-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="287-FindDuplicateNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="399-EvaluateDivision.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="394-DecodeString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="438-FindAnagrams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="560-SubarraySum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="31-NextPermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="53-MaxSubArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="23-MergeKSortedLists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

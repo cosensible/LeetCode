@@ -1,12 +1,16 @@
 #include "1-TwoSum.h"
 #include "4-MedianOfTwoSortedArrays.h"
 #include "5-LongestPalindromicSubstring.h"
+#include "10-RegularExpressionMatching.h"
 #include "11-ContainWithMostWater.h"
 #include "15-3Sum.h" //test_15();
 #include "17-LetterCombinationsUsingPhoneNumber.h"
 #include "19-RemoveNthNodeFromListEnd.h"
 #include "20-ValidParentheses.h"
 #include "22-GenerateParentheses.h" //test_22();
+#include "23-MergeKSortedLists.h"
+#include "31-NextPermutation.h"
+#include "32-LongestValidParentheses.h"
 #include "33-SearchRotatedSortedArray.h"
 #include "34-FindFirstLastPositionOfElementInSortedArray.h"
 #include "36-ValidSudoku.h"
@@ -16,52 +20,117 @@
 #include "48-RotateImage.h" //test_48();
 #include "49-GroupAnagrams.h" //test_49();
 #include "51-NQueens.h"
+#include "53-MaxSubArray.h"
 #include "55-JumpGame.h"
 #include "62-UniquePaths.h"
+#include "63-UniquePaths-II.h"
 #include "64-MinimumPathSum.h"
+#include "72-EditDistance.h"
+#include "74-Search2DMatrix.h"
 #include "75-SortColors.h"
 #include "78-Subsets.h"
+#include "79-WordSearch.h"
+#include "84-LargestRectangleInHistogram.h"
+#include "85-MaximalRectangle.h"
+#include "94-BinaryTreeInorderTraversal.h"
+#include "96-UniqueBinarySearchTrees.h"
 #include "104-MaxDepthOfBinaryTree.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "136-SingleNumber.h"
+#include "144-BinaryTreePreorderTraversal.h"
+#include "145-BinaryTreePostorderTraversal.h"
+#include "148-SortList.h"
 #include "155-MinStack.h" //test_155();
 #include "160-IntersectionOfTwoLinkedLists.h" //test_160();
 #include "200-NumberOfIslands.h"
 #include "206-ReverseLinkedList.h"
+#include "221-MaximalSquare.h"
 #include "226-InvertBinaryTree.h"
+#include "234-PalindromeLinkedList.h"
+#include "237-DeleteNodeInLinkedList.h"
+#include "238-ProductOfArrayExceptSelf.h"
+#include "240-Search2DMatrix-II.h"
+#include "279-PerfectSquares.h"
 #include "283-MoveZeroes.h"
+#include "287-FindDuplicateNumber.h"
+#include "300-LongestIncreasingSubsequence.h"
 #include "309-BestTimeBuySellStockCooldown.h"
+#include "322-CoinChange.h"
+#include "338-CountingBits.h"
+#include "394-DecodeString.h"
+#include "399-EvaluateDivision.h"
+#include "406-QueueReconstructionByHeight.h"
 #include "437-PathSum3.h"
+#include "438-FindAnagrams.h"
+#include "494-TargetSum.h"
+#include "560-SubarraySum.h"
+#include "581-ShortestUnsortedContinuousSubarray.h"
+#include "647-PalindromicSubstrings.h"
+#include "739-DailyTemperatures.h"
 
 
 int main() {
 	//test_1();
 	//test_4();
 	//test_5();
+	//test_10();
 	//test_11();
 	//test_17();
 	//test_19();
 	//test_20();
+	test_23();
+	//test_31();
+	//test_32();
 	//test_33();
 	//test_34();
-	test_36();
+	//test_36();
 	//test_37();
 	//test_51();
+	//test_53();
 	//test_55();
 	//test_62();
+	//test_63();
 	//test_64();
+	//test_72();
+	//test_74();
 	//test_75();
 	//test_78();
+	//test_79();
+	//test_84();
+	//test_85();
+	//test_94();
+	//test_96();
 	//test_104();
 	//test_123();
 	//test_136();
+	//test_144();
+	//test_145();
+	//test_148();
 	//test_200();
 	//test_206();
+	//test_221();
 	//test_226();
+	//test_234();
+	//test_237();
+	//test_238();
+	//test_240();
+	//test_279();
 	//test_283();
+	//test_287();
+	//test_300();
 	//test_309();
+	//test_322();
+	//test_338();
+	//test_394();
+	//test_399();
+	//test_406();
 	//test_437();
-
+	//test_438();
+	//test_494();
+	//test_560();
+	//test_581();
+	//test_647();
+	//test_739();
 
 	system("pause");
 	return 0;

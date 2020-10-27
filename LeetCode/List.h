@@ -4,11 +4,16 @@
 #include <vector>
 #include <iostream>
 
+
+// Definition for singly-linked list.
 struct ListNode {
 	int val;
 	ListNode *next;
+	ListNode() : val(0), next(nullptr) {}
 	ListNode(int x) : val(x), next(nullptr) {}
+	ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
+
 
 bool isListSame(ListNode *l1, ListNode *l2) {
 	while (l1 && l2 && l1->val == l2->val) {
@@ -37,5 +42,12 @@ void printList(ListNode *list) {
 	std::cout << std::endl;
 }
 
+bool isVecSame(const std::vector<int> &v1, const std::vector<int> &v2) {
+	if (v1.size() != v2.size()) { return false; }
+	for (int i = 0; i < v1.size(); ++i) {
+		if (v1[i] != v2[i]) { return false; }
+	}
+	return true;
+}
 
 #endif
