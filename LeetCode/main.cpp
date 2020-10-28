@@ -3,11 +3,11 @@
 #include "5-LongestPalindromicSubstring.h"
 #include "10-RegularExpressionMatching.h"
 #include "11-ContainWithMostWater.h"
-#include "15-3Sum.h" //test_15();
+#include "15-3Sum.h"
 #include "17-LetterCombinationsUsingPhoneNumber.h"
 #include "19-RemoveNthNodeFromListEnd.h"
 #include "20-ValidParentheses.h"
-#include "22-GenerateParentheses.h" //test_22();
+#include "22-GenerateParentheses.h"
 #include "23-MergeKSortedLists.h"
 #include "31-NextPermutation.h"
 #include "32-LongestValidParentheses.h"
@@ -15,11 +15,11 @@
 #include "34-FindFirstLastPositionOfElementInSortedArray.h"
 #include "36-ValidSudoku.h"
 #include "37-SudokuSolver.h"
-#include "39-CombinationSum.h" //test_39();
+#include "39-CombinationSum.h"
 #include "41-FirstMissingPositive.h"
-#include "46-Permutations.h"   //test_46();
-#include "48-RotateImage.h"	   //test_48();
-#include "49-GroupAnagrams.h"  //test_49();
+#include "46-Permutations.h"
+#include "48-RotateImage.h"
+#include "49-GroupAnagrams.h"
 #include "51-NQueens.h"
 #include "53-MaxSubArray.h"
 #include "55-JumpGame.h"
@@ -37,14 +37,16 @@
 #include "96-UniqueBinarySearchTrees.h"
 #include "101-SymmetricTree.h"
 #include "104-MaxDepthOfBinaryTree.h"
+#include "114-FlattenBinaryTree2LinkedList.h"
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "136-SingleNumber.h"
+#include "138-CopyListWithRandomPointer.h"
 #include "144-BinaryTreePreorderTraversal.h"
 #include "145-BinaryTreePostorderTraversal.h"
 #include "148-SortList.h"
-#include "155-MinStack.h"					  //test_155();
-#include "160-IntersectionOfTwoLinkedLists.h" //test_160();
+#include "155-MinStack.h"
+#include "160-IntersectionOfTwoLinkedLists.h"
 #include "200-NumberOfIslands.h"
 #include "206-ReverseLinkedList.h"
 #include "221-MaximalSquare.h"
@@ -77,9 +79,11 @@ int main() {
 	//test_5();
 	//test_10();
 	//test_11();
+	//test_15();
 	//test_17();
 	//test_19();
 	//test_20();
+	//test_22();
 	//test_23();
 	//test_31();
 	//test_32();
@@ -87,7 +91,11 @@ int main() {
 	//test_34();
 	//test_36();
 	//test_37();
-	test_41();
+	//test_39();
+	//test_41();
+	//test_46();
+	//test_48();
+	//test_49();
 	//test_51();
 	//test_53();
 	//test_55();
@@ -105,12 +113,16 @@ int main() {
 	//test_96();
 	//test_101();
 	//test_104();
+	//test_114();
 	//test_121();
 	//test_123();
 	//test_136();
+	//test_138();
 	//test_144();
 	//test_145();
 	//test_148();
+	//test_155();
+	//test_160();
 	//test_200();
 	//test_206();
 	//test_221();
