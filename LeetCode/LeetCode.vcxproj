@@ -119,7 +119,9 @@
     <ClInclude Include="10-RegularExpressionMatching.h" />
     <ClInclude Include="104-MaxDepthOfBinaryTree.h" />
     <ClInclude Include="11-ContainWithMostWater.h" />
+    <ClInclude Include="101-SymmetricTree.h" />
     <ClInclude Include="114-FlattenBinaryTree2LinkedList.h" />
+    <ClInclude Include="121-BestTimetoBuyandSellStock.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
@@ -159,6 +161,7 @@
     <ClInclude Include="399-EvaluateDivision.h" />
     <ClInclude Include="4-MedianOfTwoSortedArrays.h" />
     <ClInclude Include="406-QueueReconstructionByHeight.h" />
+    <ClInclude Include="41-FirstMissingPositive.h" />
     <ClInclude Include="437-PathSum3.h" />
     <ClInclude Include="438-FindAnagrams.h" />
     <ClInclude Include="46-Permutations.h" />

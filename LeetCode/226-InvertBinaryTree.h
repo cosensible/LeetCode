@@ -1,11 +1,6 @@
-#include "BinaryTree.h"
+#include "common.h"
 
-#include <vector>
-#include <iostream>
-
-/*
-Invert a binary tree.
-*/
+using namespace std;
 
 class Solution_226 {
 public:
@@ -21,10 +16,10 @@ public:
 };
 
 void test_226() {
-	std::vector<const char*> nvOld = { "3","9","20","null","null","15","7" };
-	std::vector<const char*> nvNew = { "3","20","9","7","15" };
+	vector<const char*> nvOld = { "3","9","20","null","null","15","7" };
+	vector<const char*> nvNew = { "3","20","9","7","15" };
 	TreeNode *oldTree = arr2Tree(nvOld), *newTree = arr2Tree(nvNew);
 
 	TreeNode *invTree = Solution_226().invertTree(oldTree);
-	std::cout << "test_226 : " << isTreeSame(newTree, invTree) << std::endl;
+	cout << "test_226 : " << isTreeSame(newTree, invTree) << endl;
 }

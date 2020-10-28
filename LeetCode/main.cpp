@@ -16,9 +16,10 @@
 #include "36-ValidSudoku.h"
 #include "37-SudokuSolver.h"
 #include "39-CombinationSum.h" //test_39();
-#include "46-Permutations.h" //test_46();
-#include "48-RotateImage.h" //test_48();
-#include "49-GroupAnagrams.h" //test_49();
+#include "41-FirstMissingPositive.h"
+#include "46-Permutations.h"   //test_46();
+#include "48-RotateImage.h"	   //test_48();
+#include "49-GroupAnagrams.h"  //test_49();
 #include "51-NQueens.h"
 #include "53-MaxSubArray.h"
 #include "55-JumpGame.h"
@@ -34,13 +35,15 @@
 #include "85-MaximalRectangle.h"
 #include "94-BinaryTreeInorderTraversal.h"
 #include "96-UniqueBinarySearchTrees.h"
+#include "101-SymmetricTree.h"
 #include "104-MaxDepthOfBinaryTree.h"
+#include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "136-SingleNumber.h"
 #include "144-BinaryTreePreorderTraversal.h"
 #include "145-BinaryTreePostorderTraversal.h"
 #include "148-SortList.h"
-#include "155-MinStack.h" //test_155();
+#include "155-MinStack.h"					  //test_155();
 #include "160-IntersectionOfTwoLinkedLists.h" //test_160();
 #include "200-NumberOfIslands.h"
 #include "206-ReverseLinkedList.h"
@@ -68,7 +71,6 @@
 #include "647-PalindromicSubstrings.h"
 #include "739-DailyTemperatures.h"
 
-
 int main() {
 	//test_1();
 	//test_4();
@@ -78,13 +80,14 @@ int main() {
 	//test_17();
 	//test_19();
 	//test_20();
-	test_23();
+	//test_23();
 	//test_31();
 	//test_32();
 	//test_33();
 	//test_34();
 	//test_36();
 	//test_37();
+	test_41();
 	//test_51();
 	//test_53();
 	//test_55();
@@ -100,7 +103,9 @@ int main() {
 	//test_85();
 	//test_94();
 	//test_96();
+	//test_101();
 	//test_104();
+	//test_121();
 	//test_123();
 	//test_136();
 	//test_144();
