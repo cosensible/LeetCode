@@ -17,6 +17,7 @@
 #include "37-SudokuSolver.h"
 #include "39-CombinationSum.h"
 #include "41-FirstMissingPositive.h"
+#include "42-TrappingRainWater.h"
 #include "46-Permutations.h"
 #include "48-RotateImage.h"
 #include "49-GroupAnagrams.h"
@@ -93,6 +94,7 @@ int main() {
 	//test_37();
 	//test_39();
 	//test_41();
+	test_42();
 	//test_46();
 	//test_48();
 	//test_49();

@@ -162,6 +162,7 @@
     <ClInclude Include="4-MedianOfTwoSortedArrays.h" />
     <ClInclude Include="406-QueueReconstructionByHeight.h" />
     <ClInclude Include="41-FirstMissingPositive.h" />
+    <ClInclude Include="42-TrappingRainWater.h" />
     <ClInclude Include="437-PathSum3.h" />
     <ClInclude Include="438-FindAnagrams.h" />
     <ClInclude Include="46-Permutations.h" />
