@@ -252,6 +252,9 @@
     <ClInclude Include="42-TrappingRainWater.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="76-MinWindowSubstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

@@ -183,6 +183,7 @@
     <ClInclude Include="739-DailyTemperatures.h" />
     <ClInclude Include="74-Search2DMatrix.h" />
     <ClInclude Include="75-SortColors.h" />
+    <ClInclude Include="76-MinWindowSubstring.h" />
     <ClInclude Include="78-Subsets.h" />
     <ClInclude Include="79-WordSearch.h" />
     <ClInclude Include="837.h" />

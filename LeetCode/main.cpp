@@ -30,6 +30,7 @@
 #include "72-EditDistance.h"
 #include "74-Search2DMatrix.h"
 #include "75-SortColors.h"
+#include "76-MinWindowSubstring.h"
 #include "78-Subsets.h"
 #include "79-WordSearch.h"
 #include "84-LargestRectangleInHistogram.h"
@@ -94,7 +95,7 @@ int main() {
 	//test_37();
 	//test_39();
 	//test_41();
-	test_42();
+	//test_42();
 	//test_46();
 	//test_48();
 	//test_49();
@@ -107,6 +108,7 @@ int main() {
 	//test_72();
 	//test_74();
 	//test_75();
+	test_76();
 	//test_78();
 	//test_79();
 	//test_84();
