@@ -42,6 +42,7 @@
 #include "114-FlattenBinaryTree2LinkedList.h"
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
+#include "124-BinaryTreeMaxPathSum.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
 #include "144-BinaryTreePreorderTraversal.h"
@@ -108,7 +109,7 @@ int main() {
 	//test_72();
 	//test_74();
 	//test_75();
-	test_76();
+	//test_76();
 	//test_78();
 	//test_79();
 	//test_84();
@@ -120,6 +121,7 @@ int main() {
 	//test_114();
 	//test_121();
 	//test_123();
+	test_124();
 	//test_136();
 	//test_138();
 	//test_144();

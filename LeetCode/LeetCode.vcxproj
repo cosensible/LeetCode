@@ -123,6 +123,7 @@
     <ClInclude Include="114-FlattenBinaryTree2LinkedList.h" />
     <ClInclude Include="121-BestTimetoBuyandSellStock.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
+    <ClInclude Include="124-BinaryTreeMaxPathSum.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
     <ClInclude Include="144-BinaryTreePreorderTraversal.h" />
