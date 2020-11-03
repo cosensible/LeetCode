@@ -124,6 +124,7 @@
     <ClInclude Include="121-BestTimetoBuyandSellStock.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
     <ClInclude Include="124-BinaryTreeMaxPathSum.h" />
+    <ClInclude Include="128-LongestConsecutiveSequence.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
     <ClInclude Include="144-BinaryTreePreorderTraversal.h" />
@@ -143,6 +144,7 @@
     <ClInclude Include="234-PalindromeLinkedList.h" />
     <ClInclude Include="237-DeleteNodeInLinkedList.h" />
     <ClInclude Include="238-ProductOfArrayExceptSelf.h" />
+    <ClInclude Include="239-SlidingWindowMaximum.h" />
     <ClInclude Include="240-Search2DMatrix-II.h" />
     <ClInclude Include="279-PerfectSquares.h" />
     <ClInclude Include="283-MoveZeroes.h" />

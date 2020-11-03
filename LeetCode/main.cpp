@@ -43,6 +43,7 @@
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "124-BinaryTreeMaxPathSum.h"
+#include "128-LongestConsecutiveSequence.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
 #include "144-BinaryTreePreorderTraversal.h"
@@ -57,6 +58,7 @@
 #include "234-PalindromeLinkedList.h"
 #include "237-DeleteNodeInLinkedList.h"
 #include "238-ProductOfArrayExceptSelf.h"
+#include "239-SlidingWindowMaximum.h"
 #include "240-Search2DMatrix-II.h"
 #include "279-PerfectSquares.h"
 #include "283-MoveZeroes.h"
@@ -121,7 +123,8 @@ int main() {
 	//test_114();
 	//test_121();
 	//test_123();
-	test_124();
+	//test_124();
+	//test_128();
 	//test_136();
 	//test_138();
 	//test_144();
@@ -136,6 +139,7 @@ int main() {
 	//test_234();
 	//test_237();
 	//test_238();
+	test_239();
 	//test_240();
 	//test_279();
 	//test_283();

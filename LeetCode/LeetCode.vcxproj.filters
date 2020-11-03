@@ -258,6 +258,12 @@
     <ClInclude Include="124-BinaryTreeMaxPathSum.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="128-LongestConsecutiveSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="239-SlidingWindowMaximum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
