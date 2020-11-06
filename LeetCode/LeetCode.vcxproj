@@ -150,6 +150,7 @@
     <ClInclude Include="283-MoveZeroes.h" />
     <ClInclude Include="287-FindDuplicateNumber.h" />
     <ClInclude Include="300-LongestIncreasingSubsequence.h" />
+    <ClInclude Include="301-RemoveInvalidParentheses.h" />
     <ClInclude Include="309-BestTimeBuySellStockCooldown.h" />
     <ClInclude Include="31-NextPermutation.h" />
     <ClInclude Include="32-LongestValidParentheses.h" />

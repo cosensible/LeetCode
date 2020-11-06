@@ -64,6 +64,7 @@
 #include "283-MoveZeroes.h"
 #include "287-FindDuplicateNumber.h"
 #include "300-LongestIncreasingSubsequence.h"
+#include "301-RemoveInvalidParentheses.h"
 #include "309-BestTimeBuySellStockCooldown.h"
 #include "322-CoinChange.h"
 #include "338-CountingBits.h"
@@ -139,12 +140,13 @@ int main() {
 	//test_234();
 	//test_237();
 	//test_238();
-	test_239();
+	//test_239();
 	//test_240();
 	//test_279();
 	//test_283();
 	//test_287();
 	//test_300();
+	test_301();
 	//test_309();
 	//test_322();
 	//test_338();
