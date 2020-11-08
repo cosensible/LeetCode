@@ -146,6 +146,7 @@
     <ClInclude Include="279-PerfectSquares.h" />
     <ClInclude Include="283-MoveZeroes.h" />
     <ClInclude Include="287-FindDuplicateNumber.h" />
+    <ClInclude Include="297-SerializeDeserializeBinaryTree.h" />
     <ClInclude Include="300-LongestIncreasingSubsequence.h" />
     <ClInclude Include="309-BestTimeBuySellStockCooldown.h" />
     <ClInclude Include="31-NextPermutation.h" />
