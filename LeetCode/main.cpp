@@ -17,6 +17,7 @@
 #include "37-SudokuSolver.h"
 #include "39-CombinationSum.h"
 #include "41-FirstMissingPositive.h"
+#include "42-TrappingRainWater.h"
 #include "46-Permutations.h"
 #include "48-RotateImage.h"
 #include "49-GroupAnagrams.h"
@@ -29,6 +30,7 @@
 #include "72-EditDistance.h"
 #include "74-Search2DMatrix.h"
 #include "75-SortColors.h"
+#include "76-MinWindowSubstring.h"
 #include "78-Subsets.h"
 #include "79-WordSearch.h"
 #include "84-LargestRectangleInHistogram.h"
@@ -40,6 +42,8 @@
 #include "114-FlattenBinaryTree2LinkedList.h"
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
+#include "124-BinaryTreeMaxPathSum.h"
+#include "128-LongestConsecutiveSequence.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
 #include "144-BinaryTreePreorderTraversal.h"
@@ -54,12 +58,14 @@
 #include "234-PalindromeLinkedList.h"
 #include "237-DeleteNodeInLinkedList.h"
 #include "238-ProductOfArrayExceptSelf.h"
+#include "239-SlidingWindowMaximum.h"
 #include "240-Search2DMatrix-II.h"
 #include "279-PerfectSquares.h"
 #include "283-MoveZeroes.h"
 #include "287-FindDuplicateNumber.h"
 #include "297-SerializeDeserializeBinaryTree.h"
 #include "300-LongestIncreasingSubsequence.h"
+#include "301-RemoveInvalidParentheses.h"
 #include "309-BestTimeBuySellStockCooldown.h"
 #include "322-CoinChange.h"
 #include "338-CountingBits.h"
@@ -94,6 +100,7 @@ int main() {
 	//test_37();
 	//test_39();
 	//test_41();
+	//test_42();
 	//test_46();
 	//test_48();
 	//test_49();
@@ -106,6 +113,7 @@ int main() {
 	//test_72();
 	//test_74();
 	//test_75();
+	//test_76();
 	//test_78();
 	//test_79();
 	//test_84();
@@ -117,6 +125,8 @@ int main() {
 	//test_114();
 	//test_121();
 	//test_123();
+	//test_124();
+	//test_128();
 	//test_136();
 	//test_138();
 	//test_144();
@@ -131,12 +141,14 @@ int main() {
 	//test_234();
 	//test_237();
 	//test_238();
+	//test_239();
 	//test_240();
 	//test_279();
 	//test_283();
 	//test_287();
 	test_297();
 	//test_300();
+	test_301();
 	//test_309();
 	//test_322();
 	//test_338();

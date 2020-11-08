@@ -123,6 +123,8 @@
     <ClInclude Include="114-FlattenBinaryTree2LinkedList.h" />
     <ClInclude Include="121-BestTimetoBuyandSellStock.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
+    <ClInclude Include="124-BinaryTreeMaxPathSum.h" />
+    <ClInclude Include="128-LongestConsecutiveSequence.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
     <ClInclude Include="144-BinaryTreePreorderTraversal.h" />
@@ -142,12 +144,14 @@
     <ClInclude Include="234-PalindromeLinkedList.h" />
     <ClInclude Include="237-DeleteNodeInLinkedList.h" />
     <ClInclude Include="238-ProductOfArrayExceptSelf.h" />
+    <ClInclude Include="239-SlidingWindowMaximum.h" />
     <ClInclude Include="240-Search2DMatrix-II.h" />
     <ClInclude Include="279-PerfectSquares.h" />
     <ClInclude Include="283-MoveZeroes.h" />
     <ClInclude Include="287-FindDuplicateNumber.h" />
     <ClInclude Include="297-SerializeDeserializeBinaryTree.h" />
     <ClInclude Include="300-LongestIncreasingSubsequence.h" />
+    <ClInclude Include="301-RemoveInvalidParentheses.h" />
     <ClInclude Include="309-BestTimeBuySellStockCooldown.h" />
     <ClInclude Include="31-NextPermutation.h" />
     <ClInclude Include="32-LongestValidParentheses.h" />
@@ -163,6 +167,7 @@
     <ClInclude Include="4-MedianOfTwoSortedArrays.h" />
     <ClInclude Include="406-QueueReconstructionByHeight.h" />
     <ClInclude Include="41-FirstMissingPositive.h" />
+    <ClInclude Include="42-TrappingRainWater.h" />
     <ClInclude Include="437-PathSum3.h" />
     <ClInclude Include="438-FindAnagrams.h" />
     <ClInclude Include="46-Permutations.h" />
@@ -183,6 +188,7 @@
     <ClInclude Include="739-DailyTemperatures.h" />
     <ClInclude Include="74-Search2DMatrix.h" />
     <ClInclude Include="75-SortColors.h" />
+    <ClInclude Include="76-MinWindowSubstring.h" />
     <ClInclude Include="78-Subsets.h" />
     <ClInclude Include="79-WordSearch.h" />
     <ClInclude Include="837.h" />

@@ -252,6 +252,24 @@
     <ClInclude Include="297-SerializeDeserializeBinaryTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="42-TrappingRainWater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="76-MinWindowSubstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="124-BinaryTreeMaxPathSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="128-LongestConsecutiveSequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="239-SlidingWindowMaximum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="301-RemoveInvalidParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
