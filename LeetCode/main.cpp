@@ -92,7 +92,7 @@ int main() {
 	//test_22();
 	//test_23();
 	//test_31();
-	//test_32();
+	test_32();
 	//test_33();
 	//test_34();
 	//test_36();
@@ -146,7 +146,7 @@ int main() {
 	//test_283();
 	//test_287();
 	//test_300();
-	test_301();
+	//test_301();
 	//test_309();
 	//test_322();
 	//test_338();
