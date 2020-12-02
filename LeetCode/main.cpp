@@ -63,6 +63,7 @@
 #include "279-PerfectSquares.h"
 #include "283-MoveZeroes.h"
 #include "287-FindDuplicateNumber.h"
+#include "297-SerializeDeserializeBinaryTree.h"
 #include "300-LongestIncreasingSubsequence.h"
 #include "301-RemoveInvalidParentheses.h"
 #include "309-BestTimeBuySellStockCooldown.h"
@@ -145,6 +146,7 @@ int main() {
 	//test_279();
 	//test_283();
 	//test_287();
+	test_297();
 	//test_300();
 	//test_301();
 	//test_309();
