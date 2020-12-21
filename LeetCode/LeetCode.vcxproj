@@ -196,6 +196,7 @@
     <ClInclude Include="85-MaximalRectangle.h" />
     <ClInclude Include="94-BinaryTreeInorderTraversal.h" />
     <ClInclude Include="96-UniqueBinarySearchTrees.h" />
+    <ClInclude Include="99-RecoverTree.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="145-BinaryTreePostorderTraversal.h" />
     <ClInclude Include="common.h" />

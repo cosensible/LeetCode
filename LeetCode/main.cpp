@@ -37,6 +37,7 @@
 #include "85-MaximalRectangle.h"
 #include "94-BinaryTreeInorderTraversal.h"
 #include "96-UniqueBinarySearchTrees.h"
+#include "99-RecoverTree.h"
 #include "101-SymmetricTree.h"
 #include "104-MaxDepthOfBinaryTree.h"
 #include "114-FlattenBinaryTree2LinkedList.h"
@@ -93,7 +94,7 @@ int main() {
 	//test_22();
 	//test_23();
 	//test_31();
-	test_32();
+	//test_32();
 	//test_33();
 	//test_34();
 	//test_36();
@@ -120,6 +121,7 @@ int main() {
 	//test_85();
 	//test_94();
 	//test_96();
+	test_99();
 	//test_101();
 	//test_104();
 	//test_114();
@@ -146,7 +148,7 @@ int main() {
 	//test_279();
 	//test_283();
 	//test_287();
-	test_297();
+	//test_297();
 	//test_300();
 	//test_301();
 	//test_309();

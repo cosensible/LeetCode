@@ -270,6 +270,9 @@
     <ClInclude Include="301-RemoveInvalidParentheses.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="99-RecoverTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
