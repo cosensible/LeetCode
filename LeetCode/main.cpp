@@ -1,14 +1,25 @@
+#include "ALI-1.h"
+
 #include "1-TwoSum.h"
+#include "2-AddTwoNumbers.h"
 #include "4-MedianOfTwoSortedArrays.h"
 #include "5-LongestPalindromicSubstring.h"
+#include "6-ZConvert.h"
+#include "7-ReverseInt.h"
+#include "9-PalindromeNum.h"
 #include "10-RegularExpressionMatching.h"
 #include "11-ContainWithMostWater.h"
+#include "12-IntToRoman.h"
+#include "13-RomanToInt.h"
 #include "15-3Sum.h"
 #include "17-LetterCombinationsUsingPhoneNumber.h"
 #include "19-RemoveNthNodeFromListEnd.h"
 #include "20-ValidParentheses.h"
 #include "22-GenerateParentheses.h"
 #include "23-MergeKSortedLists.h"
+#include "24-SwapPairs.h"
+#include "25-ReverseKGroup.h"
+#include "27-RemoveElement.h"
 #include "31-NextPermutation.h"
 #include "32-LongestValidParentheses.h"
 #include "33-SearchRotatedSortedArray.h"
@@ -24,6 +35,7 @@
 #include "51-NQueens.h"
 #include "53-MaxSubArray.h"
 #include "55-JumpGame.h"
+#include "61-RotateRight.h"
 #include "62-UniquePaths.h"
 #include "63-UniquePaths-II.h"
 #include "64-MinimumPathSum.h"
@@ -33,18 +45,24 @@
 #include "76-MinWindowSubstring.h"
 #include "78-Subsets.h"
 #include "79-WordSearch.h"
+#include "82-DelDupInList.h"
 #include "84-LargestRectangleInHistogram.h"
 #include "85-MaximalRectangle.h"
 #include "94-BinaryTreeInorderTraversal.h"
-#include "96-UniqueBinarySearchTrees.h"
+#include "95-GetAllBSTs.h"
+#include "96-UniqueBSTs.h"
 #include "99-RecoverTree.h"
 #include "101-SymmetricTree.h"
 #include "104-MaxDepthOfBinaryTree.h"
+#include "105-BuildTreeWithPrePost.h"
+#include "106-BuildTreeWithInPost.h"
+#include "107-LevelOrderBottom.h"
 #include "114-FlattenBinaryTree2LinkedList.h"
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "124-BinaryTreeMaxPathSum.h"
 #include "128-LongestConsecutiveSequence.h"
+#include "129-SumRoot2LeafNumbers.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
 #include "144-BinaryTreePreorderTraversal.h"
@@ -54,6 +72,7 @@
 #include "160-IntersectionOfTwoLinkedLists.h"
 #include "200-NumberOfIslands.h"
 #include "206-ReverseLinkedList.h"
+#include "209-MinSubArrayLen.h"
 #include "221-MaximalSquare.h"
 #include "226-InvertBinaryTree.h"
 #include "234-PalindromeLinkedList.h"
@@ -75,24 +94,44 @@
 #include "406-QueueReconstructionByHeight.h"
 #include "437-PathSum3.h"
 #include "438-FindAnagrams.h"
+#include "477-TotalHammingDistance.h"
 #include "494-TargetSum.h"
 #include "560-SubarraySum.h"
 #include "581-ShortestUnsortedContinuousSubarray.h"
 #include "647-PalindromicSubstrings.h"
+#include "697-MinSubArrWithDegree.h"
 #include "739-DailyTemperatures.h"
+#include "765-CouplesHoldHands.h"
+#include "784-LetterCasePermutation.h"
+#include "837-New21Game.h"
+#include "1004-LongestOnes.h"
+#include "1208-EqualSubstring.h"
+#include "1438-LongestSubArrWithDiffLimit.h"
 
 int main() {
+	test_ali_1();
+
+
 	//test_1();
+	//test_2();
 	//test_4();
 	//test_5();
+	//test_6();
+	//test_7();
+	//test_9();
 	//test_10();
 	//test_11();
+	//test_12();
+	//test_13();
 	//test_15();
 	//test_17();
 	//test_19();
 	//test_20();
 	//test_22();
 	//test_23();
+	//test_24();
+	//test_25();
+	//test_27();
 	//test_31();
 	//test_32();
 	//test_33();
@@ -108,6 +147,7 @@ int main() {
 	//test_51();
 	//test_53();
 	//test_55();
+	//test_61();
 	//test_62();
 	//test_63();
 	//test_64();
@@ -117,18 +157,24 @@ int main() {
 	//test_76();
 	//test_78();
 	//test_79();
+	//test_82();
 	//test_84();
 	//test_85();
 	//test_94();
+	//test_95();
 	//test_96();
-	test_99();
+	//test_99();
 	//test_101();
 	//test_104();
+	//test_105();
+	//test_106();
+	//test_107();
 	//test_114();
 	//test_121();
 	//test_123();
 	//test_124();
 	//test_128();
+	//test_129();
 	//test_136();
 	//test_138();
 	//test_144();
@@ -138,6 +184,7 @@ int main() {
 	//test_160();
 	//test_200();
 	//test_206();
+	//test_209();
 	//test_221();
 	//test_226();
 	//test_234();
@@ -159,11 +206,19 @@ int main() {
 	//test_406();
 	//test_437();
 	//test_438();
+	//test_477();
 	//test_494();
 	//test_560();
 	//test_581();
 	//test_647();
+	//test_697();
 	//test_739();
+	//test_765();
+	//test_784();
+	//test_837();
+	//test_1004();
+	//test_1208();
+	//test_1438();
 
 	system("pause");
 	return 0;

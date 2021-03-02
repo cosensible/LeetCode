@@ -153,9 +153,6 @@
     <ClInclude Include="739-DailyTemperatures.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="837.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="237-DeleteNodeInLinkedList.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -169,9 +166,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="322-CoinChange.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="96-UniqueBinarySearchTrees.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="494-TargetSum.h">
@@ -271,6 +265,93 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="99-RecoverTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1208-EqualSubstring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="6-ZConvert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="106-BuildTreeWithInPost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="105-BuildTreeWithPrePost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="2-AddTwoNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="7-ReverseInt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="27-RemoveElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="784-LetterCasePermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="9-PalindromeNum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="12-IntToRoman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="13-RomanToInt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="765-CouplesHoldHands.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="209-MinSubArrayLen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="477-TotalHammingDistance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="25-ReverseKGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="24-SwapPairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="61-RotateRight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="697-MinSubArrWithDegree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1004-LongestOnes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="82-DelDupInList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1438-LongestSubArrWithDiffLimit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="837-New21Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="96-UniqueBSTs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="95-GetAllBSTs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="107-LevelOrderBottom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="116-ConnectTreeFromLeft2Right.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="117-ConnectTreeFromLeft2Right_II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="129-SumRoot2LeafNumbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ALI-1.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
