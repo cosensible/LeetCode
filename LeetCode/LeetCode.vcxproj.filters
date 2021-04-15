@@ -354,6 +354,39 @@
     <ClInclude Include="ALI-1.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="329-LongestIncreasingPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="199-RightSideView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteDanceView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="165-CompareVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="424-CharReplacement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="783-MinDiffInBST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="18-FourSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="16-ThreeSumClosest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KSumDP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="208-Trie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

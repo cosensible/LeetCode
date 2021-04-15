@@ -142,13 +142,18 @@
     <ClInclude Include="148-SortList.h" />
     <ClInclude Include="15-3Sum.h" />
     <ClInclude Include="155-MinStack.h" />
+    <ClInclude Include="16-ThreeSumClosest.h" />
     <ClInclude Include="160-IntersectionOfTwoLinkedLists.h" />
+    <ClInclude Include="165-CompareVersion.h" />
     <ClInclude Include="17-LetterCombinationsUsingPhoneNumber.h" />
+    <ClInclude Include="18-FourSum.h" />
     <ClInclude Include="19-RemoveNthNodeFromListEnd.h" />
+    <ClInclude Include="199-RightSideView.h" />
     <ClInclude Include="2-AddTwoNumbers.h" />
     <ClInclude Include="20-ValidParentheses.h" />
     <ClInclude Include="200-NumberOfIslands.h" />
     <ClInclude Include="206-ReverseLinkedList.h" />
+    <ClInclude Include="208-Trie.h" />
     <ClInclude Include="209-MinSubArrayLen.h" />
     <ClInclude Include="22-GenerateParentheses.h" />
     <ClInclude Include="221-MaximalSquare.h" />
@@ -172,6 +177,7 @@
     <ClInclude Include="31-NextPermutation.h" />
     <ClInclude Include="32-LongestValidParentheses.h" />
     <ClInclude Include="322-CoinChange.h" />
+    <ClInclude Include="329-LongestIncreasingPath.h" />
     <ClInclude Include="33-SearchRotatedSortedArray.h" />
     <ClInclude Include="338-CountingBits.h" />
     <ClInclude Include="34-FindFirstLastPositionOfElementInSortedArray.h" />
@@ -184,6 +190,7 @@
     <ClInclude Include="406-QueueReconstructionByHeight.h" />
     <ClInclude Include="41-FirstMissingPositive.h" />
     <ClInclude Include="42-TrappingRainWater.h" />
+    <ClInclude Include="424-CharReplacement.h" />
     <ClInclude Include="437-PathSum3.h" />
     <ClInclude Include="438-FindAnagrams.h" />
     <ClInclude Include="46-Permutations.h" />
@@ -212,6 +219,7 @@
     <ClInclude Include="76-MinWindowSubstring.h" />
     <ClInclude Include="765-CouplesHoldHands.h" />
     <ClInclude Include="78-Subsets.h" />
+    <ClInclude Include="783-MinDiffInBST.h" />
     <ClInclude Include="784-LetterCasePermutation.h" />
     <ClInclude Include="79-WordSearch.h" />
     <ClInclude Include="82-DelDupInList.h" />
@@ -226,8 +234,11 @@
     <ClInclude Include="ALI-1.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="145-BinaryTreePostorderTraversal.h" />
+    <ClInclude Include="ByteDanceView.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="KSumDP.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="UnionSet.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

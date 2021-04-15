@@ -1,4 +1,6 @@
 #include "ALI-1.h"
+#include "ByteDanceView.h"
+#include "KSumDP.h"
 
 #include "1-TwoSum.h"
 #include "2-AddTwoNumbers.h"
@@ -12,7 +14,9 @@
 #include "12-IntToRoman.h"
 #include "13-RomanToInt.h"
 #include "15-3Sum.h"
+#include "16-ThreeSumClosest.h"
 #include "17-LetterCombinationsUsingPhoneNumber.h"
+#include "18-FourSum.h"
 #include "19-RemoveNthNodeFromListEnd.h"
 #include "20-ValidParentheses.h"
 #include "22-GenerateParentheses.h"
@@ -70,6 +74,8 @@
 #include "148-SortList.h"
 #include "155-MinStack.h"
 #include "160-IntersectionOfTwoLinkedLists.h"
+#include "165-CompareVersion.h"
+#include "199-RightSideView.h"
 #include "200-NumberOfIslands.h"
 #include "206-ReverseLinkedList.h"
 #include "209-MinSubArrayLen.h"
@@ -88,10 +94,12 @@
 #include "301-RemoveInvalidParentheses.h"
 #include "309-BestTimeBuySellStockCooldown.h"
 #include "322-CoinChange.h"
+#include "329-LongestIncreasingPath.h"
 #include "338-CountingBits.h"
 #include "394-DecodeString.h"
 #include "399-EvaluateDivision.h"
 #include "406-QueueReconstructionByHeight.h"
+#include "424-CharReplacement.h"
 #include "437-PathSum3.h"
 #include "438-FindAnagrams.h"
 #include "477-TotalHammingDistance.h"
@@ -102,6 +110,7 @@
 #include "697-MinSubArrWithDegree.h"
 #include "739-DailyTemperatures.h"
 #include "765-CouplesHoldHands.h"
+#include "783-MinDiffInBST.h"
 #include "784-LetterCasePermutation.h"
 #include "837-New21Game.h"
 #include "1004-LongestOnes.h"
@@ -109,7 +118,9 @@
 #include "1438-LongestSubArrWithDiffLimit.h"
 
 int main() {
-	test_ali_1();
+	//test_ali_1();
+	//test_ByteDance();
+	test_ksum();
 
 
 	//test_1();
@@ -124,7 +135,9 @@ int main() {
 	//test_12();
 	//test_13();
 	//test_15();
+	//test_16();
 	//test_17();
+	//test_18();
 	//test_19();
 	//test_20();
 	//test_22();
@@ -182,6 +195,8 @@ int main() {
 	//test_148();
 	//test_155();
 	//test_160();
+	//test_165();
+	//test_199();
 	//test_200();
 	//test_206();
 	//test_209();
@@ -200,10 +215,12 @@ int main() {
 	//test_301();
 	//test_309();
 	//test_322();
+	//test_329();
 	//test_338();
 	//test_394();
 	//test_399();
 	//test_406();
+	//test_424();
 	//test_437();
 	//test_438();
 	//test_477();
@@ -214,6 +231,7 @@ int main() {
 	//test_697();
 	//test_739();
 	//test_765();
+	//test_783;
 	//test_784();
 	//test_837();
 	//test_1004();
