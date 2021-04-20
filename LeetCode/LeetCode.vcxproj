@@ -168,6 +168,7 @@
     <ClInclude Include="25-ReverseKGroup.h" />
     <ClInclude Include="27-RemoveElement.h" />
     <ClInclude Include="279-PerfectSquares.h" />
+    <ClInclude Include="28-StrStr.h" />
     <ClInclude Include="283-MoveZeroes.h" />
     <ClInclude Include="287-FindDuplicateNumber.h" />
     <ClInclude Include="297-SerializeDeserializeBinaryTree.h" />
@@ -234,7 +235,7 @@
     <ClInclude Include="ALI-1.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="145-BinaryTreePostorderTraversal.h" />
-    <ClInclude Include="ByteDanceView.h" />
+    <ClInclude Include="ByteDance-1.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="KSumDP.h" />
     <ClInclude Include="List.h" />

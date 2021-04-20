@@ -360,9 +360,6 @@
     <ClInclude Include="199-RightSideView.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ByteDanceView.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="165-CompareVersion.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -385,6 +382,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="UnionSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="28-StrStr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteDance-1.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

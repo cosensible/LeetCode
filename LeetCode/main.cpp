@@ -1,5 +1,5 @@
 #include "ALI-1.h"
-#include "ByteDanceView.h"
+#include "ByteDance-1.h"
 #include "KSumDP.h"
 
 #include "1-TwoSum.h"
@@ -24,6 +24,7 @@
 #include "24-SwapPairs.h"
 #include "25-ReverseKGroup.h"
 #include "27-RemoveElement.h"
+#include "28-StrStr.h"
 #include "31-NextPermutation.h"
 #include "32-LongestValidParentheses.h"
 #include "33-SearchRotatedSortedArray.h"
@@ -120,7 +121,7 @@
 int main() {
 	//test_ali_1();
 	//test_ByteDance();
-	test_ksum();
+	//test_ksum();
 
 
 	//test_1();
@@ -145,6 +146,7 @@ int main() {
 	//test_24();
 	//test_25();
 	//test_27();
+	//test_28();
 	//test_31();
 	//test_32();
 	//test_33();
