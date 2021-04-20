@@ -25,6 +25,7 @@
 #include "25-ReverseKGroup.h"
 #include "27-RemoveElement.h"
 #include "28-StrStr.h"
+#include "30-SubStrConnectWords.h"
 #include "31-NextPermutation.h"
 #include "32-LongestValidParentheses.h"
 #include "33-SearchRotatedSortedArray.h"
@@ -58,6 +59,7 @@
 #include "96-UniqueBSTs.h"
 #include "99-RecoverTree.h"
 #include "101-SymmetricTree.h"
+#include "103-ZigzagLevelOrder.h"
 #include "104-MaxDepthOfBinaryTree.h"
 #include "105-BuildTreeWithPrePost.h"
 #include "106-BuildTreeWithInPost.h"
@@ -147,6 +149,7 @@ int main() {
 	//test_25();
 	//test_27();
 	//test_28();
+	test_30();
 	//test_31();
 	//test_32();
 	//test_33();
@@ -180,6 +183,7 @@ int main() {
 	//test_96();
 	//test_99();
 	//test_101();
+	//test_103();
 	//test_104();
 	//test_105();
 	//test_106();

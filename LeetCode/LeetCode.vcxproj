@@ -118,6 +118,7 @@
     <ClInclude Include="1-TwoSum.h" />
     <ClInclude Include="10-RegularExpressionMatching.h" />
     <ClInclude Include="1004-LongestOnes.h" />
+    <ClInclude Include="103-ZigzagLevelOrder.h" />
     <ClInclude Include="104-MaxDepthOfBinaryTree.h" />
     <ClInclude Include="105-BuildTreeWithPrePost.h" />
     <ClInclude Include="106-BuildTreeWithInPost.h" />
@@ -172,6 +173,7 @@
     <ClInclude Include="283-MoveZeroes.h" />
     <ClInclude Include="287-FindDuplicateNumber.h" />
     <ClInclude Include="297-SerializeDeserializeBinaryTree.h" />
+    <ClInclude Include="30-SubStrConnectWords.h" />
     <ClInclude Include="300-LongestIncreasingSubsequence.h" />
     <ClInclude Include="301-RemoveInvalidParentheses.h" />
     <ClInclude Include="309-BestTimeBuySellStockCooldown.h" />

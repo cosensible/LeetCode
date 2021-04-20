@@ -390,6 +390,12 @@
     <ClInclude Include="ByteDance-1.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="103-ZigzagLevelOrder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="30-SubStrConnectWords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
