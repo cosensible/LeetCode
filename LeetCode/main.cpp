@@ -25,6 +25,7 @@
 #include "25-ReverseKGroup.h"
 #include "27-RemoveElement.h"
 #include "28-StrStr.h"
+#include "29-Divide.h"
 #include "30-SubStrConnectWords.h"
 #include "31-NextPermutation.h"
 #include "32-LongestValidParentheses.h"
@@ -32,20 +33,34 @@
 #include "34-FindFirstLastPositionOfElementInSortedArray.h"
 #include "36-ValidSudoku.h"
 #include "37-SudokuSolver.h"
+#include "38-CountAndSay.h"
 #include "39-CombinationSum.h"
+#include "40-CombinationSum-II.h"
 #include "41-FirstMissingPositive.h"
 #include "42-TrappingRainWater.h"
+#include "43-StrMultiply.h"
+#include "44-WildcardMatch.h"
+#include "45-JumpGame-II.h"
 #include "46-Permutations.h"
 #include "48-RotateImage.h"
 #include "49-GroupAnagrams.h"
+#include "50-MyPow.h"
 #include "51-NQueens.h"
 #include "53-MaxSubArray.h"
 #include "55-JumpGame.h"
+#include "56-MergeIntervals.h"
+#include "57-InsertInterval.h"
+#include "60-KthPermutation.h"
 #include "61-RotateRight.h"
 #include "62-UniquePaths.h"
 #include "63-UniquePaths-II.h"
 #include "64-MinimumPathSum.h"
+#include "65-ValidNumber.h"
+#include "68-TextJustification.h"
+#include "69-MySqrt.h"
+#include "71-SimplifyPath.h"
 #include "72-EditDistance.h"
+#include "73-SetMatrixZeroes.h"
 #include "74-Search2DMatrix.h"
 #include "75-SortColors.h"
 #include "76-MinWindowSubstring.h"
@@ -54,6 +69,7 @@
 #include "82-DelDupInList.h"
 #include "84-LargestRectangleInHistogram.h"
 #include "85-MaximalRectangle.h"
+#include "91-NumDecodings.h"
 #include "94-BinaryTreeInorderTraversal.h"
 #include "95-GetAllBSTs.h"
 #include "96-UniqueBSTs.h"
@@ -70,6 +86,8 @@
 #include "124-BinaryTreeMaxPathSum.h"
 #include "128-LongestConsecutiveSequence.h"
 #include "129-SumRoot2LeafNumbers.h"
+#include "131-PalindromePartition.h"
+#include "132-PalindromePartition-II.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
 #include "144-BinaryTreePreorderTraversal.h"
@@ -89,6 +107,8 @@
 #include "238-ProductOfArrayExceptSelf.h"
 #include "239-SlidingWindowMaximum.h"
 #include "240-Search2DMatrix-II.h"
+#include "256-PaintHouse.h"
+#include "265-PaintHouse-II.h"
 #include "279-PerfectSquares.h"
 #include "283-MoveZeroes.h"
 #include "287-FindDuplicateNumber.h"
@@ -99,19 +119,25 @@
 #include "322-CoinChange.h"
 #include "329-LongestIncreasingPath.h"
 #include "338-CountingBits.h"
+#include "363-MaxSumSubMatrix.h"
 #include "394-DecodeString.h"
 #include "399-EvaluateDivision.h"
+#include "403-CanCross.h"
 #include "406-QueueReconstructionByHeight.h"
 #include "424-CharReplacement.h"
 #include "437-PathSum3.h"
 #include "438-FindAnagrams.h"
 #include "477-TotalHammingDistance.h"
 #include "494-TargetSum.h"
+#include "554-LeastBricksCrossWall.h"
 #include "560-SubarraySum.h"
 #include "581-ShortestUnsortedContinuousSubarray.h"
+#include "633-JudgeSquareSum.h"
 #include "647-PalindromicSubstrings.h"
 #include "697-MinSubArrWithDegree.h"
+#include "718-MaxRepeatedSubarray.h"
 #include "739-DailyTemperatures.h"
+#include "746-MinCostClimbingStairs.h"
 #include "765-CouplesHoldHands.h"
 #include "783-MinDiffInBST.h"
 #include "784-LetterCasePermutation.h"
@@ -119,6 +145,9 @@
 #include "1004-LongestOnes.h"
 #include "1208-EqualSubstring.h"
 #include "1438-LongestSubArrWithDiffLimit.h"
+#include "1473-PaintHouse-III.h"
+#include "1486-XorOperationInArray.h"
+#include "1720-DecodeXoredArray.h"
 
 int main() {
 	//test_ali_1();
@@ -149,27 +178,42 @@ int main() {
 	//test_25();
 	//test_27();
 	//test_28();
-	test_30();
+	//test_29();
+	//test_30();
 	//test_31();
 	//test_32();
 	//test_33();
 	//test_34();
 	//test_36();
 	//test_37();
+	//test_38();
 	//test_39();
+	//test_40();
 	//test_41();
 	//test_42();
+	//test_43();
+	//test_44();
+	//test_45();
 	//test_46();
 	//test_48();
 	//test_49();
+	//test_50();
 	//test_51();
 	//test_53();
 	//test_55();
+	//test_56();
+	//test_57();
+	//test_60();
 	//test_61();
 	//test_62();
 	//test_63();
 	//test_64();
+	//test_65();
+	//test_68();
+	//test_69();
+	//test_71();
 	//test_72();
+	//test_73();
 	//test_74();
 	//test_75();
 	//test_76();
@@ -178,6 +222,7 @@ int main() {
 	//test_82();
 	//test_84();
 	//test_85();
+	//test_91();
 	//test_94();
 	//test_95();
 	//test_96();
@@ -194,6 +239,8 @@ int main() {
 	//test_124();
 	//test_128();
 	//test_129();
+	//test_131();
+	//test_132();
 	//test_136();
 	//test_138();
 	//test_144();
@@ -213,6 +260,8 @@ int main() {
 	//test_238();
 	//test_239();
 	//test_240();
+	//test_256();
+	//test_265();
 	//test_279();
 	//test_283();
 	//test_287();
@@ -223,19 +272,25 @@ int main() {
 	//test_322();
 	//test_329();
 	//test_338();
+	//test_363();
 	//test_394();
 	//test_399();
+	//test_403();
 	//test_406();
 	//test_424();
 	//test_437();
 	//test_438();
 	//test_477();
 	//test_494();
+	//test_554();
 	//test_560();
 	//test_581();
+	//test_633();
 	//test_647();
 	//test_697();
+	//test_718();
 	//test_739();
+	//test_746();
 	//test_765();
 	//test_783;
 	//test_784();
@@ -243,6 +298,9 @@ int main() {
 	//test_1004();
 	//test_1208();
 	//test_1438();
+	//test_1473();
+	//test_1486();
+	//test_1720();
 
 	system("pause");
 	return 0;

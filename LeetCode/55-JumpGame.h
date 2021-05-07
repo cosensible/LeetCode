@@ -1,9 +1,8 @@
 #include <vector>
 #include <iostream>
-
 using namespace std;
 
-class Solution {
+class Solution_55_DP {
 public:
 	bool canJump(vector<int>& nums) {
 		int n = nums.size();
@@ -30,6 +29,19 @@ public:
 			if (i + nums[i] >= lastPos) lastPos = i;
 		}
 		return lastPos == 0;
+	}
+};
+
+class Solution_55_Right {
+public:
+	bool canJump(vector<int>& nums) {
+		int i = 0, r = 0;
+		while (i <= r) {
+			r = max(r, nums[i] + i);
+			if (r >= nums.size() - 1) return true;
+			++i;
+		}
+		return false;
 	}
 };
 

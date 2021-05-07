@@ -396,6 +396,93 @@
     <ClInclude Include="30-SubStrConnectWords.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="131-PalindromePartition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="132-PalindromePartition-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="746-MinCostClimbingStairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="91-NumDecodings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="718-MaxRepeatedSubarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="363-MaxSumSubMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="29-Divide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="38-CountAndSay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="40-CombinationSum-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="633-JudgeSquareSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="45-JumpGame-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="43-StrMultiply.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="50-MyPow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="44-WildcardMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="403-CanCross.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="554-LeastBricksCrossWall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="56-MergeIntervals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="57-InsertInterval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="65-ValidNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="60-KthPermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="265-PaintHouse-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="256-PaintHouse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1720-DecodeXoredArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1473-PaintHouse-III.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1486-XorOperationInArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="68-TextJustification.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="69-MySqrt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="71-SimplifyPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="73-SetMatrixZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
