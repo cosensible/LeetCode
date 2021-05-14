@@ -483,6 +483,45 @@
     <ClInclude Include="73-SetMatrixZeroes.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="81-SearchInRotatedSortedArray-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="90-Subsets-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="77-Combinations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="89-GrayCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="92-ReverseLinkedList-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1723-MinTimeToFinishAllJobs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="93-RestoreIpAddresses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1482-MinDaysToMakeBouquets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="97-InterleavingString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="872-LeafSimilarTrees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1269-wayNumStaySamePlaceAfterSteps.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="87-ScrambleString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1734-DecodeXoredPermutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

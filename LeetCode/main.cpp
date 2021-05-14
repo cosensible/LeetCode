@@ -64,15 +64,23 @@
 #include "74-Search2DMatrix.h"
 #include "75-SortColors.h"
 #include "76-MinWindowSubstring.h"
+#include "77-Combinations.h"
 #include "78-Subsets.h"
 #include "79-WordSearch.h"
+#include "81-SearchInRotatedSortedArray-II.h"
 #include "82-DelDupInList.h"
 #include "84-LargestRectangleInHistogram.h"
 #include "85-MaximalRectangle.h"
+#include "87-ScrambleString.h"
+#include "89-GrayCode.h"
+#include "90-Subsets-II.h"
 #include "91-NumDecodings.h"
+#include "92-ReverseLinkedList-II.h"
+#include "93-RestoreIpAddresses.h"
 #include "94-BinaryTreeInorderTraversal.h"
 #include "95-GetAllBSTs.h"
 #include "96-UniqueBSTs.h"
+#include "97-InterleavingString.h"
 #include "99-RecoverTree.h"
 #include "101-SymmetricTree.h"
 #include "103-ZigzagLevelOrder.h"
@@ -142,12 +150,17 @@
 #include "783-MinDiffInBST.h"
 #include "784-LetterCasePermutation.h"
 #include "837-New21Game.h"
+#include "872-LeafSimilarTrees.h"
 #include "1004-LongestOnes.h"
 #include "1208-EqualSubstring.h"
+#include "1269-wayNumStaySamePlaceAfterSteps.h"
 #include "1438-LongestSubArrWithDiffLimit.h"
 #include "1473-PaintHouse-III.h"
+#include "1482-MinDaysToMakeBouquets.h"
 #include "1486-XorOperationInArray.h"
 #include "1720-DecodeXoredArray.h"
+#include "1723-MinTimeToFinishAllJobs.h"
+#include "1734-DecodeXoredPermutation.h"
 
 int main() {
 	//test_ali_1();
@@ -217,15 +230,23 @@ int main() {
 	//test_74();
 	//test_75();
 	//test_76();
+	//test_77();
 	//test_78();
 	//test_79();
+	//test_81();
 	//test_82();
 	//test_84();
 	//test_85();
+	//test_87();
+	//test_89();
+	//test_90();
 	//test_91();
+	//test_92();
+	//test_93();
 	//test_94();
 	//test_95();
 	//test_96();
+	//test_97();
 	//test_99();
 	//test_101();
 	//test_103();
@@ -295,12 +316,17 @@ int main() {
 	//test_783;
 	//test_784();
 	//test_837();
+	//test_872();
 	//test_1004();
 	//test_1208();
+	//test_1269();
 	//test_1438();
 	//test_1473();
+	//test_1482();
 	//test_1486();
 	//test_1720();
+	//test_1723();
+	test_1734();
 
 	system("pause");
 	return 0;
