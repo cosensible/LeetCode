@@ -522,6 +522,30 @@
     <ClInclude Include="1734-DecodeXoredPermutation.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="119-PascalsTriangle-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="120-MinPathSumInTriangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="143-ReorderList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="147-InsertionSortList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="421-MaxXorOfTwoNumInArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1863-AllSubsetXorSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1864-MinSwapsMakeBinaryAlternating.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="993-CousinsInBinaryTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

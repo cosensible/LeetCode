@@ -89,6 +89,8 @@
 #include "106-BuildTreeWithInPost.h"
 #include "107-LevelOrderBottom.h"
 #include "114-FlattenBinaryTree2LinkedList.h"
+#include "119-PascalsTriangle-II.h"
+#include "120-MinPathSumInTriangle.h"
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "124-BinaryTreeMaxPathSum.h"
@@ -98,8 +100,10 @@
 #include "132-PalindromePartition-II.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
+#include "143-ReorderList.h"
 #include "144-BinaryTreePreorderTraversal.h"
 #include "145-BinaryTreePostorderTraversal.h"
+#include "147-InsertionSortList.h"
 #include "148-SortList.h"
 #include "155-MinStack.h"
 #include "160-IntersectionOfTwoLinkedLists.h"
@@ -132,6 +136,7 @@
 #include "399-EvaluateDivision.h"
 #include "403-CanCross.h"
 #include "406-QueueReconstructionByHeight.h"
+#include "421-MaxXorOfTwoNumInArray.h"
 #include "424-CharReplacement.h"
 #include "437-PathSum3.h"
 #include "438-FindAnagrams.h"
@@ -151,6 +156,7 @@
 #include "784-LetterCasePermutation.h"
 #include "837-New21Game.h"
 #include "872-LeafSimilarTrees.h"
+#include "993-CousinsInBinaryTree.h"
 #include "1004-LongestOnes.h"
 #include "1208-EqualSubstring.h"
 #include "1269-wayNumStaySamePlaceAfterSteps.h"
@@ -161,6 +167,8 @@
 #include "1720-DecodeXoredArray.h"
 #include "1723-MinTimeToFinishAllJobs.h"
 #include "1734-DecodeXoredPermutation.h"
+#include "1863-AllSubsetXorSum.h"
+#include "1864-MinSwapsMakeBinaryAlternating.h"
 
 int main() {
 	//test_ali_1();
@@ -255,6 +263,8 @@ int main() {
 	//test_106();
 	//test_107();
 	//test_114();
+	//test_119();
+	//test_120();
 	//test_121();
 	//test_123();
 	//test_124();
@@ -264,8 +274,10 @@ int main() {
 	//test_132();
 	//test_136();
 	//test_138();
+	//test_143();
 	//test_144();
 	//test_145();
+	//test_147();
 	//test_148();
 	//test_155();
 	//test_160();
@@ -298,6 +310,7 @@ int main() {
 	//test_399();
 	//test_403();
 	//test_406();
+	//test_421();
 	//test_424();
 	//test_437();
 	//test_438();
@@ -317,6 +330,7 @@ int main() {
 	//test_784();
 	//test_837();
 	//test_872();
+	//test_993();
 	//test_1004();
 	//test_1208();
 	//test_1269();
@@ -326,7 +340,9 @@ int main() {
 	//test_1486();
 	//test_1720();
 	//test_1723();
-	test_1734();
+	//test_1734();
+	//test_1863();
+	//test_1864();
 
 	system("pause");
 	return 0;

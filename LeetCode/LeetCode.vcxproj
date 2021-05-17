@@ -128,7 +128,9 @@
     <ClInclude Include="114-FlattenBinaryTree2LinkedList.h" />
     <ClInclude Include="116-ConnectTreeFromLeft2Right.h" />
     <ClInclude Include="117-ConnectTreeFromLeft2Right_II.h" />
+    <ClInclude Include="119-PascalsTriangle-II.h" />
     <ClInclude Include="12-IntToRoman.h" />
+    <ClInclude Include="120-MinPathSumInTriangle.h" />
     <ClInclude Include="1208-EqualSubstring.h" />
     <ClInclude Include="121-BestTimetoBuyandSellStock.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
@@ -141,8 +143,10 @@
     <ClInclude Include="132-PalindromePartition-II.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
+    <ClInclude Include="143-ReorderList.h" />
     <ClInclude Include="1438-LongestSubArrWithDiffLimit.h" />
     <ClInclude Include="144-BinaryTreePreorderTraversal.h" />
+    <ClInclude Include="147-InsertionSortList.h" />
     <ClInclude Include="1473-PaintHouse-III.h" />
     <ClInclude Include="148-SortList.h" />
     <ClInclude Include="1482-MinDaysToMakeBouquets.h" />
@@ -157,6 +161,7 @@
     <ClInclude Include="1723-MinTimeToFinishAllJobs.h" />
     <ClInclude Include="1734-DecodeXoredPermutation.h" />
     <ClInclude Include="18-FourSum.h" />
+    <ClInclude Include="1863-AllSubsetXorSum.h" />
     <ClInclude Include="19-RemoveNthNodeFromListEnd.h" />
     <ClInclude Include="199-RightSideView.h" />
     <ClInclude Include="2-AddTwoNumbers.h" />
@@ -209,6 +214,7 @@
     <ClInclude Include="406-QueueReconstructionByHeight.h" />
     <ClInclude Include="41-FirstMissingPositive.h" />
     <ClInclude Include="42-TrappingRainWater.h" />
+    <ClInclude Include="421-MaxXorOfTwoNumInArray.h" />
     <ClInclude Include="424-CharReplacement.h" />
     <ClInclude Include="43-StrMultiply.h" />
     <ClInclude Include="437-PathSum3.h" />
@@ -229,6 +235,7 @@
     <ClInclude Include="56-MergeIntervals.h" />
     <ClInclude Include="560-SubarraySum.h" />
     <ClInclude Include="57-InsertInterval.h" />
+    <ClInclude Include="1864-MinSwapsMakeBinaryAlternating.h" />
     <ClInclude Include="581-ShortestUnsortedContinuousSubarray.h" />
     <ClInclude Include="6-ZConvert.h" />
     <ClInclude Include="60-KthPermutation.h" />
@@ -276,6 +283,7 @@
     <ClInclude Include="96-UniqueBSTs.h" />
     <ClInclude Include="97-InterleavingString.h" />
     <ClInclude Include="99-RecoverTree.h" />
+    <ClInclude Include="993-CousinsInBinaryTree.h" />
     <ClInclude Include="ALI-1.h" />
     <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="145-BinaryTreePostorderTraversal.h" />
