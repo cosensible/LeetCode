@@ -141,11 +141,13 @@
     <ClInclude Include="13-RomanToInt.h" />
     <ClInclude Include="131-PalindromePartition.h" />
     <ClInclude Include="132-PalindromePartition-II.h" />
+    <ClInclude Include="133-CloneGraph.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
     <ClInclude Include="143-ReorderList.h" />
     <ClInclude Include="1438-LongestSubArrWithDiffLimit.h" />
     <ClInclude Include="144-BinaryTreePreorderTraversal.h" />
+    <ClInclude Include="1442-TripletNumForm2ArraysOfEqualXor.h" />
     <ClInclude Include="147-InsertionSortList.h" />
     <ClInclude Include="1473-PaintHouse-III.h" />
     <ClInclude Include="148-SortList.h" />

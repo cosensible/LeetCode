@@ -98,6 +98,7 @@
 #include "129-SumRoot2LeafNumbers.h"
 #include "131-PalindromePartition.h"
 #include "132-PalindromePartition-II.h"
+#include "133-CloneGraph.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
 #include "143-ReorderList.h"
@@ -161,6 +162,7 @@
 #include "1208-EqualSubstring.h"
 #include "1269-wayNumStaySamePlaceAfterSteps.h"
 #include "1438-LongestSubArrWithDiffLimit.h"
+#include "1442-TripletNumForm2ArraysOfEqualXor.h"
 #include "1473-PaintHouse-III.h"
 #include "1482-MinDaysToMakeBouquets.h"
 #include "1486-XorOperationInArray.h"
@@ -335,6 +337,7 @@ int main() {
 	//test_1208();
 	//test_1269();
 	//test_1438();
+	test_1442();
 	//test_1473();
 	//test_1482();
 	//test_1486();

@@ -546,6 +546,12 @@
     <ClInclude Include="993-CousinsInBinaryTree.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="133-CloneGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1442-TripletNumForm2ArraysOfEqualXor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

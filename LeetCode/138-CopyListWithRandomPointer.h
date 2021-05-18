@@ -1,23 +1,21 @@
 /* https://leetcode.com/problems/copy-list-with-random-pointer/ */
 
 
-// Definition for a Node.
-class Node {
-public:
-	int val;
-	Node* next;
-	Node* random;
-
-	Node(int _val) {
-		val = _val;
-		next = nullptr;
-		random = nullptr;
-	}
-};
-
-
 class Solution_138 {
 public:
+	class Node {
+	public:
+		int val;
+		Node* next;
+		Node* random;
+
+		Node(int _val) {
+			val = _val;
+			next = nullptr;
+			random = nullptr;
+		}
+	};
+
 	Node* copyRandomList(Node* head) {
 		if (head == nullptr) return nullptr;
 
