@@ -94,13 +94,19 @@
 #include "121-BestTimetoBuyandSellStock.h"
 #include "123-BestTimeBuySellStock-III.h"
 #include "124-BinaryTreeMaxPathSum.h"
+#include "126-WordLadder-II.h"
+#include "127-WordLadder.h"
 #include "128-LongestConsecutiveSequence.h"
 #include "129-SumRoot2LeafNumbers.h"
 #include "131-PalindromePartition.h"
 #include "132-PalindromePartition-II.h"
 #include "133-CloneGraph.h"
+#include "134-CompleteCircleWithGasStation.h"
+#include "135-Candy.h"
 #include "136-SingleNumber.h"
 #include "138-CopyListWithRandomPointer.h"
+#include "139-WordBreak.h"
+#include "140-WordBreak-II.h"
 #include "143-ReorderList.h"
 #include "144-BinaryTreePreorderTraversal.h"
 #include "145-BinaryTreePostorderTraversal.h"
@@ -148,6 +154,7 @@
 #include "581-ShortestUnsortedContinuousSubarray.h"
 #include "633-JudgeSquareSum.h"
 #include "647-PalindromicSubstrings.h"
+#include "692-TopKFrequentWords.h"
 #include "697-MinSubArrWithDegree.h"
 #include "718-MaxRepeatedSubarray.h"
 #include "739-DailyTemperatures.h"
@@ -169,6 +176,7 @@
 #include "1720-DecodeXoredArray.h"
 #include "1723-MinTimeToFinishAllJobs.h"
 #include "1734-DecodeXoredPermutation.h"
+#include "1738-KthLargestXorCoordinateValue.h"
 #include "1863-AllSubsetXorSum.h"
 #include "1864-MinSwapsMakeBinaryAlternating.h"
 
@@ -270,12 +278,18 @@ int main() {
 	//test_121();
 	//test_123();
 	//test_124();
+	test_126();
+	//test_127();
 	//test_128();
 	//test_129();
 	//test_131();
 	//test_132();
+	//test_134();
+	//test_135();
 	//test_136();
 	//test_138();
+	//test_139();
+	//test_140();
 	//test_143();
 	//test_144();
 	//test_145();
@@ -323,6 +337,7 @@ int main() {
 	//test_581();
 	//test_633();
 	//test_647();
+	//test_692();
 	//test_697();
 	//test_718();
 	//test_739();
@@ -337,13 +352,14 @@ int main() {
 	//test_1208();
 	//test_1269();
 	//test_1438();
-	test_1442();
+	//test_1442();
 	//test_1473();
 	//test_1482();
 	//test_1486();
 	//test_1720();
 	//test_1723();
 	//test_1734();
+	//test_1738();
 	//test_1863();
 	//test_1864();
 

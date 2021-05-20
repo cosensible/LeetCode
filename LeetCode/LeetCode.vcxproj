@@ -135,15 +135,21 @@
     <ClInclude Include="121-BestTimetoBuyandSellStock.h" />
     <ClInclude Include="123-BestTimeBuySellStock-III.h" />
     <ClInclude Include="124-BinaryTreeMaxPathSum.h" />
+    <ClInclude Include="126-WordLadder-II.h" />
     <ClInclude Include="1269-wayNumStaySamePlaceAfterSteps.h" />
+    <ClInclude Include="127-WordLadder.h" />
     <ClInclude Include="128-LongestConsecutiveSequence.h" />
     <ClInclude Include="129-SumRoot2LeafNumbers.h" />
     <ClInclude Include="13-RomanToInt.h" />
     <ClInclude Include="131-PalindromePartition.h" />
     <ClInclude Include="132-PalindromePartition-II.h" />
     <ClInclude Include="133-CloneGraph.h" />
+    <ClInclude Include="134-CompleteCircleWithGasStation.h" />
+    <ClInclude Include="135-Candy.h" />
     <ClInclude Include="136-SingleNumber.h" />
     <ClInclude Include="138-CopyListWithRandomPointer.h" />
+    <ClInclude Include="139-WordBreak.h" />
+    <ClInclude Include="140-WordBreak-II.h" />
     <ClInclude Include="143-ReorderList.h" />
     <ClInclude Include="1438-LongestSubArrWithDiffLimit.h" />
     <ClInclude Include="144-BinaryTreePreorderTraversal.h" />
@@ -162,6 +168,7 @@
     <ClInclude Include="1720-DecodeXoredArray.h" />
     <ClInclude Include="1723-MinTimeToFinishAllJobs.h" />
     <ClInclude Include="1734-DecodeXoredPermutation.h" />
+    <ClInclude Include="1738-KthLargestXorCoordinateValue.h" />
     <ClInclude Include="18-FourSum.h" />
     <ClInclude Include="1863-AllSubsetXorSum.h" />
     <ClInclude Include="19-RemoveNthNodeFromListEnd.h" />
@@ -250,6 +257,7 @@
     <ClInclude Include="65-ValidNumber.h" />
     <ClInclude Include="68-TextJustification.h" />
     <ClInclude Include="69-MySqrt.h" />
+    <ClInclude Include="692-TopKFrequentWords.h" />
     <ClInclude Include="697-MinSubArrWithDegree.h" />
     <ClInclude Include="7-ReverseInt.h" />
     <ClInclude Include="71-SimplifyPath.h" />

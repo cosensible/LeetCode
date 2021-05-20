@@ -552,6 +552,30 @@
     <ClInclude Include="1442-TripletNumForm2ArraysOfEqualXor.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="1738-KthLargestXorCoordinateValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="134-CompleteCircleWithGasStation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="135-Candy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="692-TopKFrequentWords.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="139-WordBreak.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="140-WordBreak-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="127-WordLadder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="126-WordLadder-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
