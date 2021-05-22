@@ -159,8 +159,13 @@
     <ClInclude Include="148-SortList.h" />
     <ClInclude Include="1482-MinDaysToMakeBouquets.h" />
     <ClInclude Include="1486-XorOperationInArray.h" />
+    <ClInclude Include="149-MaxPointsOnALine.h" />
     <ClInclude Include="15-3Sum.h" />
+    <ClInclude Include="151-ReverseWordsInString.h" />
+    <ClInclude Include="153-FindMinInRotatedSortedArray.h" />
+    <ClInclude Include="154-FindMinInRotatedSortedArray-II.h" />
     <ClInclude Include="155-MinStack.h" />
+    <ClInclude Include="156-BinaryTreeUpsideDown.h" />
     <ClInclude Include="16-ThreeSumClosest.h" />
     <ClInclude Include="160-IntersectionOfTwoLinkedLists.h" />
     <ClInclude Include="165-CompareVersion.h" />
@@ -276,6 +281,7 @@
     <ClInclude Include="784-LetterCasePermutation.h" />
     <ClInclude Include="79-WordSearch.h" />
     <ClInclude Include="81-SearchInRotatedSortedArray-II.h" />
+    <ClInclude Include="810-ChalkboardXorGame.h" />
     <ClInclude Include="82-DelDupInList.h" />
     <ClInclude Include="837-New21Game.h" />
     <ClInclude Include="84-LargestRectangleInHistogram.h" />

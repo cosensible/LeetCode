@@ -576,6 +576,24 @@
     <ClInclude Include="126-WordLadder-II.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="149-MaxPointsOnALine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="151-ReverseWordsInString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="154-FindMinInRotatedSortedArray-II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="153-FindMinInRotatedSortedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="810-ChalkboardXorGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="156-BinaryTreeUpsideDown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

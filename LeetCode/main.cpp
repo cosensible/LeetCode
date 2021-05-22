@@ -112,7 +112,12 @@
 #include "145-BinaryTreePostorderTraversal.h"
 #include "147-InsertionSortList.h"
 #include "148-SortList.h"
+#include "149-MaxPointsOnALine.h"
+#include "151-ReverseWordsInString.h"
+#include "153-FindMinInRotatedSortedArray.h"
+#include "154-FindMinInRotatedSortedArray-II.h"
 #include "155-MinStack.h"
+#include "156-BinaryTreeUpsideDown.h"
 #include "160-IntersectionOfTwoLinkedLists.h"
 #include "165-CompareVersion.h"
 #include "199-RightSideView.h"
@@ -162,6 +167,7 @@
 #include "765-CouplesHoldHands.h"
 #include "783-MinDiffInBST.h"
 #include "784-LetterCasePermutation.h"
+#include "810-ChalkboardXorGame.h"
 #include "837-New21Game.h"
 #include "872-LeafSimilarTrees.h"
 #include "993-CousinsInBinaryTree.h"
@@ -278,7 +284,7 @@ int main() {
 	//test_121();
 	//test_123();
 	//test_124();
-	test_126();
+	//test_126();
 	//test_127();
 	//test_128();
 	//test_129();
@@ -295,7 +301,12 @@ int main() {
 	//test_145();
 	//test_147();
 	//test_148();
+	//test_149();
+	//test_151();
+	//test_153();
+	//test_154();
 	//test_155();
+	test_156();
 	//test_160();
 	//test_165();
 	//test_199();
@@ -345,6 +356,7 @@ int main() {
 	//test_765();
 	//test_783;
 	//test_784();
+	//test_810();
 	//test_837();
 	//test_872();
 	//test_993();
