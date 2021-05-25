@@ -168,12 +168,16 @@
     <ClInclude Include="156-BinaryTreeUpsideDown.h" />
     <ClInclude Include="16-ThreeSumClosest.h" />
     <ClInclude Include="160-IntersectionOfTwoLinkedLists.h" />
+    <ClInclude Include="161-OneEditDistance.h" />
+    <ClInclude Include="162-FindPeakElement.h" />
     <ClInclude Include="165-CompareVersion.h" />
     <ClInclude Include="17-LetterCombinationsUsingPhoneNumber.h" />
+    <ClInclude Include="1707-MaxXorWithLimitedElementFromArray.h" />
     <ClInclude Include="1720-DecodeXoredArray.h" />
     <ClInclude Include="1723-MinTimeToFinishAllJobs.h" />
     <ClInclude Include="1734-DecodeXoredPermutation.h" />
     <ClInclude Include="1738-KthLargestXorCoordinateValue.h" />
+    <ClInclude Include="1787-MakeXorOfAllSegmentsZero.h" />
     <ClInclude Include="18-FourSum.h" />
     <ClInclude Include="1863-AllSubsetXorSum.h" />
     <ClInclude Include="19-RemoveNthNodeFromListEnd.h" />
@@ -215,6 +219,7 @@
     <ClInclude Include="33-SearchRotatedSortedArray.h" />
     <ClInclude Include="338-CountingBits.h" />
     <ClInclude Include="34-FindFirstLastPositionOfElementInSortedArray.h" />
+    <ClInclude Include="340-LongestSubstrWithKMostDistinctChar.h" />
     <ClInclude Include="36-ValidSudoku.h" />
     <ClInclude Include="363-MaxSumSubMatrix.h" />
     <ClInclude Include="37-SudokuSolver.h" />
@@ -250,6 +255,7 @@
     <ClInclude Include="560-SubarraySum.h" />
     <ClInclude Include="57-InsertInterval.h" />
     <ClInclude Include="1864-MinSwapsMakeBinaryAlternating.h" />
+    <ClInclude Include="1872-StoneGame-VIII.h" />
     <ClInclude Include="581-ShortestUnsortedContinuousSubarray.h" />
     <ClInclude Include="6-ZConvert.h" />
     <ClInclude Include="60-KthPermutation.h" />
@@ -260,6 +266,7 @@
     <ClInclude Include="64-MinimumPathSum.h" />
     <ClInclude Include="647-PalindromicSubstrings.h" />
     <ClInclude Include="65-ValidNumber.h" />
+    <ClInclude Include="664-StrangePrinter.h" />
     <ClInclude Include="68-TextJustification.h" />
     <ClInclude Include="69-MySqrt.h" />
     <ClInclude Include="692-TopKFrequentWords.h" />

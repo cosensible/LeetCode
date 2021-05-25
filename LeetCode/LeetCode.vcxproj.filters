@@ -594,6 +594,27 @@
     <ClInclude Include="156-BinaryTreeUpsideDown.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="340-LongestSubstrWithKMostDistinctChar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1707-MaxXorWithLimitedElementFromArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="664-StrangePrinter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="161-OneEditDistance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1787-MakeXorOfAllSegmentsZero.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="162-FindPeakElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1872-StoneGame-VIII.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

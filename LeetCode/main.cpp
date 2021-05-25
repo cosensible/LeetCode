@@ -119,6 +119,8 @@
 #include "155-MinStack.h"
 #include "156-BinaryTreeUpsideDown.h"
 #include "160-IntersectionOfTwoLinkedLists.h"
+#include "161-OneEditDistance.h"
+#include "162-FindPeakElement.h"
 #include "165-CompareVersion.h"
 #include "199-RightSideView.h"
 #include "200-NumberOfIslands.h"
@@ -143,6 +145,7 @@
 #include "322-CoinChange.h"
 #include "329-LongestIncreasingPath.h"
 #include "338-CountingBits.h"
+#include "340-LongestSubstrWithKMostDistinctChar.h"
 #include "363-MaxSumSubMatrix.h"
 #include "394-DecodeString.h"
 #include "399-EvaluateDivision.h"
@@ -159,6 +162,7 @@
 #include "581-ShortestUnsortedContinuousSubarray.h"
 #include "633-JudgeSquareSum.h"
 #include "647-PalindromicSubstrings.h"
+#include "664-StrangePrinter.h"
 #include "692-TopKFrequentWords.h"
 #include "697-MinSubArrWithDegree.h"
 #include "718-MaxRepeatedSubarray.h"
@@ -179,12 +183,15 @@
 #include "1473-PaintHouse-III.h"
 #include "1482-MinDaysToMakeBouquets.h"
 #include "1486-XorOperationInArray.h"
+#include "1707-MaxXorWithLimitedElementFromArray.h"
 #include "1720-DecodeXoredArray.h"
 #include "1723-MinTimeToFinishAllJobs.h"
 #include "1734-DecodeXoredPermutation.h"
 #include "1738-KthLargestXorCoordinateValue.h"
+#include "1787-MakeXorOfAllSegmentsZero.h"
 #include "1863-AllSubsetXorSum.h"
 #include "1864-MinSwapsMakeBinaryAlternating.h"
+#include "1872-StoneGame-VIII.h"
 
 int main() {
 	//test_ali_1();
@@ -306,8 +313,10 @@ int main() {
 	//test_153();
 	//test_154();
 	//test_155();
-	test_156();
+	//test_156();
 	//test_160();
+	//test_161();
+	//test_162();
 	//test_165();
 	//test_199();
 	//test_200();
@@ -332,6 +341,7 @@ int main() {
 	//test_322();
 	//test_329();
 	//test_338();
+	//test_340();
 	//test_363();
 	//test_394();
 	//test_399();
@@ -348,6 +358,7 @@ int main() {
 	//test_581();
 	//test_633();
 	//test_647();
+	//test_664();
 	//test_692();
 	//test_697();
 	//test_718();
@@ -368,12 +379,15 @@ int main() {
 	//test_1473();
 	//test_1482();
 	//test_1486();
+	//test_1707();
 	//test_1720();
 	//test_1723();
 	//test_1734();
 	//test_1738();
+	//test_1787();
 	//test_1863();
 	//test_1864();
+	//test_1872();
 
 	system("pause");
 	return 0;
