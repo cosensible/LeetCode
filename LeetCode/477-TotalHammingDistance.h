@@ -4,35 +4,38 @@ using namespace std;
 
 class Solution_477 {
 public:
-	//int totalHammingDistance(vector<int>& nums) {
-	//	int num = 0;
-	//	for (int i = 0; i < nums.size(); ++i) {
-	//		for (int j = i + 1; j < nums.size(); ++j) {
-	//			num += hammingDistance(nums[i], nums[j]);
-	//		}
-	//	}
-	//	return num;
-	//}
-	//int hammingDistance(int a, int b) {
-	//	int c = a ^ b;
-	//	int num = 0;
-	//	while (c > 0) {
-	//		num += (c & 1);
-	//		c >>= 1;
-	//	}
-	//	return num;
-	//}
+	int totalHammingDistanceNSquare(vector<int>& nums) {
+		int num = 0;
+		for (int i = 0; i < nums.size(); ++i) {
+			for (int j = i + 1; j < nums.size(); ++j) {
+				num += hammingDistance(nums[i], nums[j]);
+			}
+		}
+		return num;
+	}
 
 	int totalHammingDistance(vector<int>& nums) {
-		int sum = 0, n = nums.size();
-		for (int i = 0, mask = 1; i < 31; mask <<= 1, ++i) {
-			int cnt1 = 0;
-			for (int num : nums) {
-				if (num&mask) { ++cnt1; }
+		int ans = 0;
+		int n = nums.size();
+		for (int k = 0; k <= 30; ++k) {
+			int cnt = 0;
+			for (int x : nums) {
+				if (x&(1 << k)) cnt++;
 			}
-			sum += cnt1 * (n - cnt1); // 该位为一的个数乘以该位为零的个数
+			ans += (n - cnt)*cnt; // 每一位结果为 1 的数量为该位 0 的数量乘以 1 的数量
 		}
-		return sum;
+		return ans;
+	}
+
+private:
+	int hammingDistance(int a, int b) {
+		int x = a ^ b;
+		int cnt = 0;
+		while (x) {
+			cnt++;
+			x = x & (x - 1);
+		}
+		return cnt;
 	}
 };
 

@@ -121,13 +121,19 @@
 #include "160-IntersectionOfTwoLinkedLists.h"
 #include "161-OneEditDistance.h"
 #include "162-FindPeakElement.h"
+#include "163-MissingRanges.h"
+#include "164-MaxGap.h"
 #include "165-CompareVersion.h"
+#include "172-FactorialTrailingZeroes.h"
+#include "179-LargestNumber.h"
+#include "187-RepeatedDNASequences.h"
 #include "199-RightSideView.h"
 #include "200-NumberOfIslands.h"
 #include "206-ReverseLinkedList.h"
 #include "209-MinSubArrayLen.h"
 #include "221-MaximalSquare.h"
 #include "226-InvertBinaryTree.h"
+#include "231-PowerOfTwo.h"
 #include "234-PalindromeLinkedList.h"
 #include "237-DeleteNodeInLinkedList.h"
 #include "238-ProductOfArrayExceptSelf.h"
@@ -143,9 +149,11 @@
 #include "301-RemoveInvalidParentheses.h"
 #include "309-BestTimeBuySellStockCooldown.h"
 #include "322-CoinChange.h"
+#include "326-PowerOfThree.h"
 #include "329-LongestIncreasingPath.h"
 #include "338-CountingBits.h"
 #include "340-LongestSubstrWithKMostDistinctChar.h"
+#include "342-PowerOfFour.h"
 #include "363-MaxSumSubMatrix.h"
 #include "394-DecodeString.h"
 #include "399-EvaluateDivision.h"
@@ -155,6 +163,7 @@
 #include "424-CharReplacement.h"
 #include "437-PathSum3.h"
 #include "438-FindAnagrams.h"
+#include "461-HammingDistance.h"
 #include "477-TotalHammingDistance.h"
 #include "494-TargetSum.h"
 #include "554-LeastBricksCrossWall.h"
@@ -176,6 +185,8 @@
 #include "872-LeafSimilarTrees.h"
 #include "993-CousinsInBinaryTree.h"
 #include "1004-LongestOnes.h"
+#include "1074-NumOfSubMatricesSumToTarget.h"
+#include "1190-ReverseSubstrBetweenParentheses.h"
 #include "1208-EqualSubstring.h"
 #include "1269-wayNumStaySamePlaceAfterSteps.h"
 #include "1438-LongestSubArrWithDiffLimit.h"
@@ -317,13 +328,19 @@ int main() {
 	//test_160();
 	//test_161();
 	//test_162();
+	//test_163();
+	//test_164();
 	//test_165();
+	//test_172();
+	//test_179();
+	//test_187();
 	//test_199();
 	//test_200();
 	//test_206();
 	//test_209();
 	//test_221();
 	//test_226();
+	//test_231();
 	//test_234();
 	//test_237();
 	//test_238();
@@ -339,9 +356,11 @@ int main() {
 	//test_301();
 	//test_309();
 	//test_322();
+	//test_326();
 	//test_329();
 	//test_338();
 	//test_340();
+	//test_342();
 	//test_363();
 	//test_394();
 	//test_399();
@@ -351,6 +370,7 @@ int main() {
 	//test_424();
 	//test_437();
 	//test_438();
+	//test_461();
 	//test_477();
 	//test_494();
 	//test_554();
@@ -365,13 +385,15 @@ int main() {
 	//test_739();
 	//test_746();
 	//test_765();
-	//test_783;
+	//test_783();
 	//test_784();
 	//test_810();
 	//test_837();
 	//test_872();
 	//test_993();
 	//test_1004();
+	test_1074();
+	//test_1190();
 	//test_1208();
 	//test_1269();
 	//test_1438();

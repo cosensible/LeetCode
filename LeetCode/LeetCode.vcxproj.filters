@@ -615,6 +615,39 @@
     <ClInclude Include="1872-StoneGame-VIII.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="163-MissingRanges.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1190-ReverseSubstrBetweenParentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="461-HammingDistance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="172-FactorialTrailingZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="164-MaxGap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="179-LargestNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="231-PowerOfTwo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="342-PowerOfFour.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="326-PowerOfThree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="187-RepeatedDNASequences.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1074-NumOfSubMatricesSumToTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
