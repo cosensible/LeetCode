@@ -124,11 +124,17 @@
 #include "163-MissingRanges.h"
 #include "164-MaxGap.h"
 #include "165-CompareVersion.h"
+#include "166-FractionToRecurringDecimal.h"
 #include "172-FactorialTrailingZeroes.h"
+#include "174-DungeonGame.h"
 #include "179-LargestNumber.h"
 #include "187-RepeatedDNASequences.h"
+#include "189-RotateArray.h"
+#include "190-ReverseBits.h"
 #include "199-RightSideView.h"
 #include "200-NumberOfIslands.h"
+#include "201-RangeBitwiseAnd.h"
+#include "202-HappyNumber.h"
 #include "206-ReverseLinkedList.h"
 #include "209-MinSubArrayLen.h"
 #include "221-MaximalSquare.h"
@@ -164,8 +170,10 @@
 #include "437-PathSum3.h"
 #include "438-FindAnagrams.h"
 #include "461-HammingDistance.h"
+#include "474-OnesAndZeroes.h"
 #include "477-TotalHammingDistance.h"
 #include "494-TargetSum.h"
+#include "523-ContinuousSubarraySum.h"
 #include "554-LeastBricksCrossWall.h"
 #include "560-SubarraySum.h"
 #include "581-ShortestUnsortedContinuousSubarray.h"
@@ -204,10 +212,17 @@
 #include "1864-MinSwapsMakeBinaryAlternating.h"
 #include "1872-StoneGame-VIII.h"
 
+#include "MorrisTraversal.h"
+#include "HeapSort.h"
+#include "DiffSet.h"
+
 int main() {
 	//test_ali_1();
 	//test_ByteDance();
 	//test_ksum();
+	//test_morris();
+	//test_hpsort();
+	test_diff();
 
 
 	//test_1();
@@ -331,11 +346,17 @@ int main() {
 	//test_163();
 	//test_164();
 	//test_165();
+	//test_166();
 	//test_172();
+	//test_174();
 	//test_179();
 	//test_187();
+	//test_189();
+	//test_190();
 	//test_199();
 	//test_200();
+	//test_201();
+	//test_202();
 	//test_206();
 	//test_209();
 	//test_221();
@@ -371,8 +392,10 @@ int main() {
 	//test_437();
 	//test_438();
 	//test_461();
+	//test_474();
 	//test_477();
 	//test_494();
+	//test_523();
 	//test_554();
 	//test_560();
 	//test_581();
@@ -392,7 +415,7 @@ int main() {
 	//test_872();
 	//test_993();
 	//test_1004();
-	test_1074();
+	//test_1074();
 	//test_1190();
 	//test_1208();
 	//test_1269();

@@ -648,6 +648,45 @@
     <ClInclude Include="1074-NumOfSubMatricesSumToTarget.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="189-RotateArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="190-ReverseBits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="166-FractionToRecurringDecimal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="202-HappyNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="174-DungeonGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="523-ContinuousSubarraySum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="201-RangeBitwiseAnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="474-OnesAndZeroes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MorrisTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RandRand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiffSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Trie.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

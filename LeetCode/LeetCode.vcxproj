@@ -175,6 +175,7 @@
     <ClInclude Include="163-MissingRanges.h" />
     <ClInclude Include="164-MaxGap.h" />
     <ClInclude Include="165-CompareVersion.h" />
+    <ClInclude Include="166-FractionToRecurringDecimal.h" />
     <ClInclude Include="17-LetterCombinationsUsingPhoneNumber.h" />
     <ClInclude Include="1707-MaxXorWithLimitedElementFromArray.h" />
     <ClInclude Include="172-FactorialTrailingZeroes.h" />
@@ -182,16 +183,21 @@
     <ClInclude Include="1723-MinTimeToFinishAllJobs.h" />
     <ClInclude Include="1734-DecodeXoredPermutation.h" />
     <ClInclude Include="1738-KthLargestXorCoordinateValue.h" />
+    <ClInclude Include="174-DungeonGame.h" />
     <ClInclude Include="1787-MakeXorOfAllSegmentsZero.h" />
     <ClInclude Include="179-LargestNumber.h" />
     <ClInclude Include="18-FourSum.h" />
     <ClInclude Include="1863-AllSubsetXorSum.h" />
     <ClInclude Include="187-RepeatedDNASequences.h" />
+    <ClInclude Include="189-RotateArray.h" />
     <ClInclude Include="19-RemoveNthNodeFromListEnd.h" />
+    <ClInclude Include="190-ReverseBits.h" />
     <ClInclude Include="199-RightSideView.h" />
     <ClInclude Include="2-AddTwoNumbers.h" />
     <ClInclude Include="20-ValidParentheses.h" />
     <ClInclude Include="200-NumberOfIslands.h" />
+    <ClInclude Include="201-RangeBitwiseAnd.h" />
+    <ClInclude Include="202-HappyNumber.h" />
     <ClInclude Include="206-ReverseLinkedList.h" />
     <ClInclude Include="208-Trie.h" />
     <ClInclude Include="209-MinSubArrayLen.h" />
@@ -252,6 +258,7 @@
     <ClInclude Include="45-JumpGame-II.h" />
     <ClInclude Include="46-Permutations.h" />
     <ClInclude Include="461-HammingDistance.h" />
+    <ClInclude Include="474-OnesAndZeroes.h" />
     <ClInclude Include="477-TotalHammingDistance.h" />
     <ClInclude Include="48-RotateImage.h" />
     <ClInclude Include="49-GroupAnagrams.h" />
@@ -259,6 +266,7 @@
     <ClInclude Include="5-LongestPalindromicSubstring.h" />
     <ClInclude Include="50-MyPow.h" />
     <ClInclude Include="51-NQueens.h" />
+    <ClInclude Include="523-ContinuousSubarraySum.h" />
     <ClInclude Include="53-MaxSubArray.h" />
     <ClInclude Include="55-JumpGame.h" />
     <ClInclude Include="554-LeastBricksCrossWall.h" />
@@ -323,8 +331,13 @@
     <ClInclude Include="145-BinaryTreePostorderTraversal.h" />
     <ClInclude Include="ByteDance-1.h" />
     <ClInclude Include="common.h" />
+    <ClInclude Include="DiffSet.h" />
+    <ClInclude Include="HeapSort.h" />
     <ClInclude Include="KSumDP.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="MorrisTraversal.h" />
+    <ClInclude Include="RandRand.h" />
+    <ClInclude Include="Trie.h" />
     <ClInclude Include="UnionSet.h" />
   </ItemGroup>
   <ItemGroup>

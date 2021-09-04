@@ -23,5 +23,6 @@ public:
 };
 
 void test_326() {
-	cout << (Solution_326().isPowerOfThree(27) == true && Solution_326_Faster().isPowerOfThree(45) == false) << endl;
+	cout << (Solution_326().isPowerOfThree(27) == true
+		&& Solution_326_Faster().isPowerOfThree(45) == false) << endl;
 }

@@ -5,32 +5,32 @@ using namespace std;
 
 class Solution_1707 {
 public:
-	struct TrieNode {
+	struct TrieNode_1707 {
 		int val; // 以节点为根的子树所记录元素的最小值，若 val>m，则该子树所有元素不满足条件
-		vector<TrieNode*> children; // 用 C 风格的数组更快
+		vector<TrieNode_1707*> children; // 用 C 风格的数组更快
 
-		TrieNode(int v) :val(v), children(2, nullptr) {}
-		~TrieNode() {
-			for (TrieNode *ptn : children) {
+		TrieNode_1707(int v) :val(v), children(2, nullptr) {}
+		~TrieNode_1707() {
+			for (TrieNode_1707 *ptn : children) {
 				delete ptn;
 				ptn = nullptr;
 			}
 		}
 	};
 
-	struct Trie {
+	struct Trie_1707 {
 		const int BIT = 30; // 1e9 最多使用 30 个二进制位
-		TrieNode *root;
+		TrieNode_1707 *root;
 
-		Trie() :root(new TrieNode(INT_MAX)) {}
-		~Trie() { delete root; root = nullptr; }
+		Trie_1707() :root(new TrieNode_1707(INT_MAX)) {}
+		~Trie_1707() { delete root; root = nullptr; }
 
 		void add(int num) {
-			TrieNode *p = root;
+			TrieNode_1707 *p = root;
 			for (int k = BIT - 1; k >= 0; --k) {
 				bool bit = (1 << k)&num;
 				if (p->children[bit] == nullptr) {
-					p->children[bit] = new TrieNode(num);
+					p->children[bit] = new TrieNode_1707(num);
 				}
 				// 更新经过的每个子树存储的最小元素
 				p->val = min(p->val, num);
@@ -39,7 +39,7 @@ public:
 		}
 
 		int getMaxXorNum(int x, int m) {
-			TrieNode *p = root;
+			TrieNode_1707 *p = root;
 			if (p->val > m) return -1; // 字典树中不包含 <=m 的数
 			for (int k = BIT - 1; k >= 0; --k) {
 				bool bit = (1 << k)&x;
@@ -56,7 +56,7 @@ public:
 	};
 
 	vector<int> maximizeXor(vector<int>& nums, vector<vector<int>>& queries) {
-		Trie trie;
+		Trie_1707 trie;
 		for (int num : nums) { trie.add(num); }
 
 		vector<int> ans(queries.size(), -1);
