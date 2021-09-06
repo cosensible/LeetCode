@@ -687,6 +687,9 @@
     <ClInclude Include="Trie.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="912-SortArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

@@ -318,6 +318,7 @@
     <ClInclude Include="9-PalindromeNum.h" />
     <ClInclude Include="90-Subsets-II.h" />
     <ClInclude Include="91-NumDecodings.h" />
+    <ClInclude Include="912-SortArray.h" />
     <ClInclude Include="92-ReverseLinkedList-II.h" />
     <ClInclude Include="93-RestoreIpAddresses.h" />
     <ClInclude Include="94-BinaryTreeInorderTraversal.h" />

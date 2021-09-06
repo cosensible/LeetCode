@@ -191,6 +191,7 @@
 #include "810-ChalkboardXorGame.h"
 #include "837-New21Game.h"
 #include "872-LeafSimilarTrees.h"
+#include "912-SortArray.h"
 #include "993-CousinsInBinaryTree.h"
 #include "1004-LongestOnes.h"
 #include "1074-NumOfSubMatricesSumToTarget.h"
@@ -222,7 +223,7 @@ int main() {
 	//test_ksum();
 	//test_morris();
 	//test_hpsort();
-	test_diff();
+	//test_diff();
 
 
 	//test_1();
@@ -413,6 +414,7 @@ int main() {
 	//test_810();
 	//test_837();
 	//test_872();
+	test_912();
 	//test_993();
 	//test_1004();
 	//test_1074();

@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-class HeapSort {
+class MyHeapSort {
 public:
 	void sort(vector<int> &nums) {
 		int n = nums.size();
@@ -35,7 +35,7 @@ private:
 
 void test_hpsort() {
 	vector<int> nums = { 2,8,7,6,5,4,9,3,1 };
-	HeapSort().sort(nums);
+	MyHeapSort().sort(nums);
 	for (int i : nums) {
 		cout << i << " ";
 	}
